@@ -1,35 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T10:03:04.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="RsTXPE5Ovkz2-ooq-G_K" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T10:06:27.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="swY_yERbvD4BmnRklfuf" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="470" width="580" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-0" value="&lt;h1&gt;现有问题：&lt;/h1&gt;&lt;p&gt;1）实现方案问题&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	a）依赖redis 来去重，可用性，容错性问题&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	b）不同时间纬度的统计完全依赖与HBase的计算，频繁的更新HBase，性能低，存在数据丢失case&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	c）批量提交HBase，现在通过系统时间范围来是否选择批量提交，这块不灵活，也存在丢数问题&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;2）代码工程问题&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	a）模块划分不好&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	b）代码复用性不好，现在每个BU一套代码，主逻辑基本都一样。抽取解析器，去重逻辑，计算逻辑&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	c）异常处理不合理，日志输出不规范，排错困难&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;3）性能问题&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	a）纬表数据没有做缓存处理，或者通过广播表的方式处理，频繁的查询纬表数据&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	b）依赖HBase做统计，性能低&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-0" value="&lt;h1&gt;现有问题：&lt;/h1&gt;&lt;p&gt;1）实现方案问题&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt; a）依赖redis 来去重，可用性，容错性问题&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt; b）不同时间纬度的统计完全依赖与HBase的计算，频繁的更新HBase，性能低，存在数据丢失case&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; c）批量提交HBase，现在通过系统时间范围来是否选择批量提交，这块不灵活，也存在丢数问题&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;2）代码工程问题&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; a）模块划分不好&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; b）代码复用性不好，现在每个BU一套代码，主逻辑基本都一样。抽取解析器，去重逻辑，计算逻辑&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; c）异常处理不合理，日志输出不规范，排错困难&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;3）性能问题&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; a）纬表数据没有做缓存处理，或者通过广播表的方式处理，频繁的查询纬表数据&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; b）依赖HBase做统计，性能低&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="30" width="600" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-2" target="PpgQZHZEXtgsGQ5d_JVp-6">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-2" target="PpgQZHZEXtgsGQ5d_JVp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-2" value="纬表Flink CDC 广播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-2" value="纬表Flink CDC 广播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-3" target="PpgQZHZEXtgsGQ5d_JVp-4">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-3" target="PpgQZHZEXtgsGQ5d_JVp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-3" value="消息解析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-3" value="消息解析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-4" target="PpgQZHZEXtgsGQ5d_JVp-6">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-4" target="PpgQZHZEXtgsGQ5d_JVp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-4" value="业务去重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-4" value="业务去重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-6" value="数据过滤" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RHIrmTfkz3pfI6pTi9OC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PpgQZHZEXtgsGQ5d_JVp-6" target="RHIrmTfkz3pfI6pTi9OC-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpgQZHZEXtgsGQ5d_JVp-6" value="数据过滤" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHIrmTfkz3pfI6pTi9OC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RHIrmTfkz3pfI6pTi9OC-0" target="RHIrmTfkz3pfI6pTi9OC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHIrmTfkz3pfI6pTi9OC-0" value="数据计算" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHIrmTfkz3pfI6pTi9OC-2" value="数据入库" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="499" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
