@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T05:46:17.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="ZuPbTfMBhcc_1o5JzbYY" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T09:10:42.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="m2AOonTjQPjPlWifUGfK" version="17.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="582" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -94,6 +94,12 @@
         </mxCell>
         <mxCell id="dQFGTe_rli6qkeEuCF2u-16" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQFGTe_rli6qkeEuCF2u-20" value="channel_03231730, -&amp;gt; value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1570" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQFGTe_rli6qkeEuCF2u-21" value="store_03231730, -&amp;gt; value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1670" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
