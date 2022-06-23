@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T07:59:09.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="mQfWm6J0V_6X1Jw2E_BR" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T10:03:22.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="WEKeWWDGI73WaqOVhIgo" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2052" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -103,14 +103,11 @@
         <mxCell id="OMhgGvtzp42g15X-fxHF-41" value="holder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="646" y="480" width="114" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-43" value="_SAVEPOINT_CONFIG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1078" y="1140" width="215" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-63" value="process normal msg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="893" y="485" width="114" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-65" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color:#A7C942;color:#ffffff;border:1px solid #98bf21;&quot;&gt;&lt;th align=&quot;left&quot;&gt;FIELD NAME&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;TYPE&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;DESC&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;ID&lt;/td&gt;&lt;td&gt;BIGINT&lt;/td&gt;&lt;td&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;JOB_TYPE&lt;/td&gt;&lt;td&gt;VARCHAR(32)&lt;/td&gt;&lt;td&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(234, 242, 211);&quot;&gt;BARRIER_MSG_ID&lt;/span&gt;&lt;/td&gt;&lt;td&gt;VARCHAR&lt;/td&gt;&lt;td&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;BARRIER_NUM&lt;/td&gt;&lt;td&gt;INT&lt;/td&gt;&lt;td&gt;0 - NOT YET&lt;br&gt;1 - COMPLETE&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;CREATE_DATETIME&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="232" y="1100" width="350" height="160" as="geometry" />
+        <mxCell id="OMhgGvtzp42g15X-fxHF-65" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color:#A7C942;color:#ffffff;border:1px solid #98bf21;&quot;&gt;&lt;th align=&quot;left&quot;&gt;FIELD NAME&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;TYPE&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;DESC&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;ID&lt;/td&gt;&lt;td&gt;BIGINT&lt;/td&gt;&lt;td&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;JOB_NAME&lt;/td&gt;&lt;td&gt;VARCHAR(32)&lt;/td&gt;&lt;td&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(234, 242, 211);&quot;&gt;BARRIER_MSG_ID&lt;/span&gt;&lt;/td&gt;&lt;td&gt;VARCHAR&lt;/td&gt;&lt;td&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATUS&lt;br&gt;&lt;/td&gt;&lt;td&gt;INT&lt;/td&gt;&lt;td&gt;0- NOT YET&lt;br&gt;1- COMPLETE&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;CREATE_DATETIME&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="278.5" y="1140" width="350" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,25 +119,55 @@
           <mxGeometry x="232" y="789.5" width="350" height="220" as="geometry" />
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-71" value="_SAVEPOINT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="82" y="750.5" width="215" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-75" value="select barrier_msg_id where job_type=&#39;campaign&#39; and create_date_time &amp;lt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1092" y="1110" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-76" value="campaign offer&lt;br&gt;producer&lt;br&gt;job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1162" y="950" width="106" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-77" value="producer also save send msg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1302" y="960" width="60" height="30" as="geometry" />
+          <mxGeometry x="55" y="740" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-78" value="trigejob" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-40" y="330" width="110" height="50" as="geometry" />
+          <mxGeometry x="-50" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-79" value="produce init &amp;nbsp;&lt;br&gt;records by partition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="641" y="800" width="215" height="30" as="geometry" />
+        <mxCell id="OMhgGvtzp42g15X-fxHF-80" value="_SAVEPOINT_TIEGGER_RECORD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="106.5" y="1090" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-80" value="_SAVEPOINT_ID_" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="82" y="1060" width="215" height="30" as="geometry" />
+        <mxCell id="OMhgGvtzp42g15X-fxHF-81" value="1001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-87" target="OMhgGvtzp42g15X-fxHF-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-87" value="trige job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-88" target="OMhgGvtzp42g15X-fxHF-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-88" value="get barrier msg&lt;br&gt;id by job name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-97" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-90" target="OMhgGvtzp42g15X-fxHF-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-90" target="OMhgGvtzp42g15X-fxHF-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-90" value="exist?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="297" y="1850" width="55" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-94" value="new &amp;amp; save" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="387" y="1865" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-98" target="OMhgGvtzp42g15X-fxHF-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-98" value="no dependency&lt;br&gt;send msg&amp;amp; barrier msg&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1960" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-101" target="OMhgGvtzp42g15X-fxHF-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-101" value="dependency&amp;nbsp;&lt;br&gt;check &amp;amp; holder" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-103" value="last job send successfully update jobid status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="2190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
