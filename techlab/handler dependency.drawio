@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T05:59:14.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="ybFmeX-mSW9ySM2Ush21" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T06:47:28.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="i3lZ5qgGipO6JoTuWYof" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="871" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="OMhgGvtzp42g15X-fxHF-0" value="campaign&lt;br&gt;producer&lt;br&gt;job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OMhgGvtzp42g15X-fxHF-0" value="campaign&lt;br&gt;producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="210" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-1" value="offer&lt;br&gt;producer&lt;br&gt;job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OMhgGvtzp42g15X-fxHF-1" value="offer&lt;br&gt;producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="330" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -79,7 +79,7 @@
         <mxCell id="OMhgGvtzp42g15X-fxHF-33" value="update handler job barrier table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1052.5" y="355" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OMhgGvtzp42g15X-fxHF-35" value="campaign offer&lt;br&gt;producer&lt;br&gt;job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OMhgGvtzp42g15X-fxHF-35" value="campaign offer&lt;br&gt;producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="480" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OMhgGvtzp42g15X-fxHF-36" target="OMhgGvtzp42g15X-fxHF-37">
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="OMhgGvtzp42g15X-fxHF-77" value="producer also save send msg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="264" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMhgGvtzp42g15X-fxHF-78" value="trigejob" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="330" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
