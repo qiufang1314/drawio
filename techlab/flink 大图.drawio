@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T07:36:08.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="XHLBdB2sh64bd4ukwYeJ" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T08:29:34.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="SxabkgIsWEkfful-JrI6" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1174" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
         <mxCell id="U5XGqWJioJr3O-M73j0z-22" value="Yarn" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="137" y="420" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U5XGqWJioJr3O-M73j0z-23" value="K8S" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="U5XGqWJioJr3O-M73j0z-23" value="DCE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="137" y="480" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-24" value="Online enquiry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -121,7 +121,7 @@
         <mxCell id="U5XGqWJioJr3O-M73j0z-33" value="Operation+development&lt;br&gt;platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="772.5" y="70" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U5XGqWJioJr3O-M73j0z-34" value="DaoCloud" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="U5XGqWJioJr3O-M73j0z-34" value="DCS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="110" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-35" value="GitLab" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -193,7 +193,7 @@
         <mxCell id="U5XGqWJioJr3O-M73j0z-76" value="FLink" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="373" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U5XGqWJioJr3O-M73j0z-77" value="Apache Flink framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="U5XGqWJioJr3O-M73j0z-77" value="Apache Stream Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="572.5" y="10" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-82" value="Streamx" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=15;strokeWidth=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
