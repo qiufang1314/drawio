@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T04:20:45.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="wG1tVS_Jjhb-lo0T8Wkm" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T04:20:57.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="QyvnqfWPvA2ofM8TCxf8" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -152,10 +152,10 @@
           <mxGeometry x="717" y="336" width="93" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-49" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1076.5" y="212.5" width="110" height="40" as="geometry" />
+          <mxGeometry x="1076.5" y="216.5" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-50" value="&lt;span style=&quot;font-size: 16px; caret-color: rgb(33, 37, 41); color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Distributed &lt;br&gt;Coordination&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1035" y="176" width="205.5" height="30" as="geometry" />
+          <mxGeometry x="1035" y="182.5" width="205.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U5XGqWJioJr3O-M73j0z-65" value="Etcd" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1076.5" y="262.5" width="107.5" height="40" as="geometry" />
