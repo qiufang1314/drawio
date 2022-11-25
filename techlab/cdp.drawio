@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T08:22:36.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="jcMhPcNCNmv0Sac1I8Zr" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T01:45:28.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="YlDNtBpiGjuRCAr8lmVu" type="github">
   <diagram id="YJtl5HTyZOLG68UvCM0n" name="第 1 页">
     <mxGraphModel dx="1018" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,60 @@
             <mxPoint x="199" y="270" as="sourcePoint" />
             <mxPoint x="199" y="314" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="659.5" as="sourcePoint" />
+            <mxPoint x="490" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="659.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-30" value="clean&lt;br&gt;validate&lt;br&gt;one id mapping" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="625" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-31" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="615" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="654.5" as="sourcePoint" />
+            <mxPoint x="760" y="655" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="654.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-33" value="StarRocks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-34" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="300" y="760" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-35" value="CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-36" value="Flink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-37" value="Flink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="690" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="809.5" as="sourcePoint" />
+            <mxPoint x="490" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="809.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-39" value="Flink CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="420" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-40" value="One ID Mapping data&lt;br&gt;Business data" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
