@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T01:55:53.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="WayKLJG7FKWAyLVEyjdx" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T09:34:05.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="9ZXiYDZdwjxHv3C303oq" type="github">
   <diagram id="YJtl5HTyZOLG68UvCM0n" name="第 1 页">
     <mxGraphModel dx="1018" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,24 @@
         </mxCell>
         <mxCell id="HF32aqo9pS53ZTFzaLPI-41" value="埋点匿名id与one id的对应关系前端需要给我们后端系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="540" y="585" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-42" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;cdp_user_profile_tag&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275.5" y="1520" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-43" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;cdp_tag_definition&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="1400" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-44" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;cdp_user_event&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191.5" y="1280" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-45" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;cdp_user_event_field_mapping&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="1150" width="243.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-46" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;cdp_user_oneid_mapping&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;cid&lt;/td&gt;&lt;td&gt;biting&lt;/td&gt;&lt;td&gt;pk&lt;/td&gt;&lt;td&gt;cdp one id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sid&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;source id&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="1000" width="243.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-47" value="用户one id &amp;nbsp;mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="167" y="960" width="133" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
