@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T01:27:21.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="oqnV141m59h6XjvKHbnN" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T01:30:14.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.6.0" etag="KC306Irfde6VpGqnQgbq" type="github">
   <diagram id="YJtl5HTyZOLG68UvCM0n" name="第 1 页">
     <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,12 +210,6 @@
         </mxCell>
         <mxCell id="HF32aqo9pS53ZTFzaLPI-84" value="LakeHouse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="812.5" y="2531" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HF32aqo9pS53ZTFzaLPI-85" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2094" width="167.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HF32aqo9pS53ZTFzaLPI-86" value="Resource scheduler&lt;br&gt;（DaoCloud）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="1481.5" y="2094" width="158.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HF32aqo9pS53ZTFzaLPI-90" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="675.25" y="2530" width="114.75" height="90" as="geometry" />
@@ -433,6 +427,15 @@
         </mxCell>
         <mxCell id="HF32aqo9pS53ZTFzaLPI-199" value="Flink Develop&lt;br&gt;Platform" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1079.5" y="2262" width="80.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-201" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="2035" width="137" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-202" value="Resource Schedule&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="2046" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HF32aqo9pS53ZTFzaLPI-203" value="MA" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260.25" y="2104" width="81.5" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
