@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T11:11:30.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="Ouqa5SHbpc3m892kM5ph" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T11:13:10.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="-zTy-4lF_wuPyL4Yq_Hp" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1022" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1657,6 +1657,9 @@
         </mxCell>
         <mxCell id="lpSbpHwbFg0IfaeELCCi-217" value="customer_view (customer analysis)&lt;br&gt;1.cid&lt;br&gt;2.tag_id&lt;br&gt;3.segment_id&lt;br&gt;4. other cid info" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="970" y="660" width="152" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lpSbpHwbFg0IfaeELCCi-218" value="注意实时的情况下如何保留历史？" style="shape=card;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="566" y="689" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
