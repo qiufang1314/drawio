@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T02:03:19.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="SYXdde03dGWgKqWszJNf" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-10T03:10:37.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="UMGrrKFctJPLUKT8PQ2j" version="20.6.2" type="github">
   <diagram id="YJtl5HTyZOLG68UvCM0n" name="第 1 页">
     <mxGraphModel dx="1018" dy="-474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -757,26 +757,16 @@
           <mxGeometry x="1332" y="6675" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-2" value="&lt;font face=&quot;Architects Daughter&quot;&gt;1十进制位：标签创建类型&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="683.8100000000001" y="7130" width="90.38" height="30" as="geometry" />
+          <mxGeometry x="866.71" y="7410" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-3" value="标签seq（N）" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="588" y="7130" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1AQMSCd6CBkvp_HDMmEK-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="615" y="7120" as="sourcePoint" />
-            <mxPoint x="725" y="7120" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="615" y="7090" />
-              <mxPoint x="725" y="7090" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="561.21" y="7410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-5" value="Tag_id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="605.5" y="7050" width="161.5" height="30" as="geometry" />
+          <mxGeometry x="425" y="7410" width="161.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-9" value="1: 条件标签&lt;br&gt;2:统计标签&lt;br&gt;3:SQL标签&lt;br&gt;4:导入标签" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="762" y="7180" width="160" height="60" as="geometry" />
+          <mxGeometry x="998" y="7470" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-10" value="&lt;font face=&quot;Architects Daughter&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="683.8100000000001" y="7260" width="90.38" height="30" as="geometry" />
@@ -786,6 +776,21 @@
         </mxCell>
         <mxCell id="1AQMSCd6CBkvp_HDMmEK-12" value="eg：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="529" y="7260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AQMSCd6CBkvp_HDMmEK-13" value="&lt;font face=&quot;Architects Daughter&quot;&gt;3位十进制位：标签类型&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="675.21" y="7410" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AQMSCd6CBkvp_HDMmEK-14" value="0: &amp;nbsp;用户属性&lt;br&gt;10: 用户行为&lt;br&gt;20: 用户消费&lt;br&gt;30: 用户风险&lt;br&gt;40: 社交属性&lt;br&gt;最大支持9个自分类条件，选择来对应的条件，标签ID= sun（值）- num(条件数)，eg用户选择了条件 用户行为 + 用户消费，sum(10,20) - 2 = 28; 用户只选择用户风险，标签ID= 30" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="672" y="7500" width="488" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1AQMSCd6CBkvp_HDMmEK-15" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="624.21" y="7410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AQMSCd6CBkvp_HDMmEK-16" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="811.71" y="7410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AQMSCd6CBkvp_HDMmEK-17" value="=" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="515.5" y="7410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
