@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T10:14:19.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="NQhZHyeseAXYbbBxLONB" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T10:14:29.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="m4Koh-HD_ub-sF-8j7T9" version="20.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2171" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1617,7 +1617,7 @@
         <mxCell id="lpSbpHwbFg0IfaeELCCi-82" value="segment_criteria_id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lpSbpHwbFg0IfaeELCCi-68" vertex="1">
           <mxGeometry y="368" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="lpSbpHwbFg0IfaeELCCi-96" value="code type&lt;br style=&quot;font-size: 10px;&quot;&gt;1. customer attributes&lt;br style=&quot;font-size: 10px;&quot;&gt;2.customer behavior&lt;br style=&quot;font-size: 10px;&quot;&gt;3. behavior attributes&lt;br style=&quot;font-size: 10px;&quot;&gt;4.combination behavior&lt;br&gt;5.other code type" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="lpSbpHwbFg0IfaeELCCi-96" value="code type&lt;br style=&quot;font-size: 10px;&quot;&gt;1. customer attributes&lt;br style=&quot;font-size: 10px;&quot;&gt;2.customer behavior&lt;br style=&quot;font-size: 10px;&quot;&gt;3. behavior attributes&lt;br style=&quot;font-size: 10px;&quot;&gt;4.combination behavior&lt;br&gt;5.other code type&lt;br&gt;... ..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1630" y="1198" width="120" height="125" as="geometry" />
         </mxCell>
         <mxCell id="lpSbpHwbFg0IfaeELCCi-113" value="cdp_hierarchy" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
