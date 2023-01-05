@@ -1,97 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T01:28:57.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="uDeGVh_WJIqXmwNT8IwO" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-05T04:07:51.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="IkctlX2tEspfJ84h50QI" version="20.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-2" target="a2s3owxSg3qmIjE8sJY4-3">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-2" target="a2s3owxSg3qmIjE8sJY4-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-2" value="Flink CDC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-2" value="Flink CDC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-3" target="a2s3owxSg3qmIjE8sJY4-5">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-3" target="a2s3owxSg3qmIjE8sJY4-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-3" value="Debezium" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-3" value="Debezium" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="280" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-5" value="call &amp;nbsp;DB procedure&lt;br&gt;log" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-5" value="call &amp;nbsp;DB procedure&lt;br&gt;log" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="480" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="460" width="830" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-8" value="Flink CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-8" value="Flink CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="240" y="580" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-9" target="a2s3owxSg3qmIjE8sJY4-10">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-9" target="a2s3owxSg3qmIjE8sJY4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-14" value="init and start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2s3owxSg3qmIjE8sJY4-11">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-14" value="init and start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a2s3owxSg3qmIjE8sJY4-11" vertex="1" connectable="0">
           <mxGeometry x="-0.075" y="-5" relative="1" as="geometry">
             <mxPoint x="3" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-9" value="Flink Source Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-9" value="Flink Source Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-10" target="a2s3owxSg3qmIjE8sJY4-15">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-10" target="a2s3owxSg3qmIjE8sJY4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-10" value="Debezium" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-10" value="Debezium" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="670" width="340" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="720" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-15" target="a2s3owxSg3qmIjE8sJY4-12">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-15" target="a2s3owxSg3qmIjE8sJY4-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-18" value="1. call procedure sys.dbms_logmnr.start_logmnr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2s3owxSg3qmIjE8sJY4-17">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-18" value="1. call procedure sys.dbms_logmnr.start_logmnr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a2s3owxSg3qmIjE8sJY4-17" vertex="1" connectable="0">
           <mxGeometry x="-0.3097" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-15" target="a2s3owxSg3qmIjE8sJY4-20">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-15" target="a2s3owxSg3qmIjE8sJY4-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-32" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2s3owxSg3qmIjE8sJY4-21">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-32" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a2s3owxSg3qmIjE8sJY4-21" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-15" value="start LogMining Session" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-15" value="start LogMining Session" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="490" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-20" target="a2s3owxSg3qmIjE8sJY4-12">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-20" target="a2s3owxSg3qmIjE8sJY4-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-24" value="3. trigger db parse redo lo, filter and return parsed data&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2s3owxSg3qmIjE8sJY4-23">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-24" value="3. trigger db parse redo lo, filter and return parsed data&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a2s3owxSg3qmIjE8sJY4-23" vertex="1" connectable="0">
           <mxGeometry x="0.3714" y="3" relative="1" as="geometry">
             <mxPoint x="9" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-20" target="a2s3owxSg3qmIjE8sJY4-28">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2s3owxSg3qmIjE8sJY4-20" target="a2s3owxSg3qmIjE8sJY4-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-20" value="query &amp;nbsp;V$LOGMNR_COTENTS" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-20" value="query &amp;nbsp;V$LOGMNR_COTENTS" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="650" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-25" value="SCN, SQL_REDO, OPERATION_CODE, TIMESTAMP, XID, CSF, TABLE_NAME, SEG_OWNER, OPERATION, USERNAME, ROW_ID, ROLLBACK, RS_ID" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-25" value="SCN, SQL_REDO, OPERATION_CODE, TIMESTAMP, XID, CSF, TABLE_NAME, SEG_OWNER, OPERATION, USERNAME, ROW_ID, ROLLBACK, RS_ID" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="590" y="780" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-27" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-27" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="720" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-28" value="Sink Kafka" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-28" value="Sink Kafka" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="810" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a2s3owxSg3qmIjE8sJY4-30" value="RAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="a2s3owxSg3qmIjE8sJY4-30" value="RAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="290" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-0" value="logminer parameters" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="950" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-4" value="&lt;h1&gt;online_catalog&lt;/h1&gt;&lt;p&gt;catalog_in_redo:&lt;/p&gt;&lt;p&gt;This strategy uses LogMiner with data dictionary in online catalog. This option will not capture DDL , but acts fast on REDO LOG switch events This option does not use CONTINUOUS_MINE option&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="372" y="980" width="356" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-5" value="&lt;h1&gt;continuous_mine&lt;/h1&gt;&lt;span style=&quot;text-align: center;&quot;&gt;log.mining.continuous.mine&lt;/span&gt;:&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;p&gt;If true, CONTINUOUS_MINE option will be added to the log mining session. This will manage log files switches seamlessly.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379" y="1170" width="356" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-7" value="&lt;div&gt;&quot;BEGIN sys.dbms_logmnr.start_logmnr(&quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;startScn =&amp;gt; &#39;&quot; + startScn + &quot;&#39;, &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;endScn =&amp;gt; &#39;&quot; + endScn + &quot;&#39;, &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;OPTIONS =&amp;gt; &quot; + &lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;DBMS_LOGMNR.DICT_FROM_ONLINE_CATALO&lt;/b&gt;&lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;G&lt;/b&gt; &amp;nbsp;+ &lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;DBMS_LOGMNR.CONTINUOUS_MINE&lt;/b&gt;&amp;nbsp; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; + DBMS_LOGMNR.NO_ROWID_IN_STMT);&quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;END;&quot;;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="1070" width="570" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=default;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MGJxTlzYksmv63LTrWDe-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1158" as="sourcePoint" />
+            <mxPoint x="800" y="1158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-11" value="SELECT SCN, SQL_REDO, OPERATION_CODE, TIMESTAMP, XID, CSF, TABLE_NAME, SEG_OWNER, OPERATION, USERNAME, ROW_ID, ROLLBACK, RS_ID &amp;nbsp;FROM V$LOGMNR_CONTENTS&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;div&gt;WHERE SCN &amp;gt; ? AND SCN &amp;lt;= ? &amp;nbsp;&lt;/div&gt;&lt;div&gt;AND SRC_CON_NAME = &lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;#{pdb name}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-- Always include START, COMMIT, MISSING_SCN, and ROLLBACK operations&lt;/div&gt;&lt;div&gt;AND ( (OPERATION_CODE IN (6,7,34,36))&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="1500" width="570" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="1390" as="sourcePoint" />
+            <mxPoint x="820" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-14" value="trige logmnr&amp;amp;&lt;br&gt;query logmnr content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-13" value="start_logmnr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="1140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-15" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MGJxTlzYksmv63LTrWDe-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1158" as="sourcePoint" />
+            <mxPoint x="800" y="1158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGJxTlzYksmv63LTrWDe-16" value="&lt;h1&gt;database.pdb.name&lt;/h1&gt;Name of the pluggable database when working with a multi-tenant set-up. The CDB name must be given via database.dbname in this case." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1530" width="356" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
