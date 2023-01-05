@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-05T04:07:51.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="IkctlX2tEspfJ84h50QI" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-05T04:18:41.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="GQShz00_xeL1iqdI1yiE" version="20.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1119" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -97,10 +97,10 @@
           <mxGeometry x="100" y="950" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGJxTlzYksmv63LTrWDe-4" value="&lt;h1&gt;online_catalog&lt;/h1&gt;&lt;p&gt;catalog_in_redo:&lt;/p&gt;&lt;p&gt;This strategy uses LogMiner with data dictionary in online catalog. This option will not capture DDL , but acts fast on REDO LOG switch events This option does not use CONTINUOUS_MINE option&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="372" y="980" width="356" height="170" as="geometry" />
+          <mxGeometry x="359" y="980" width="356" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MGJxTlzYksmv63LTrWDe-5" value="&lt;h1&gt;continuous_mine&lt;/h1&gt;&lt;span style=&quot;text-align: center;&quot;&gt;log.mining.continuous.mine&lt;/span&gt;:&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;p&gt;If true, CONTINUOUS_MINE option will be added to the log mining session. This will manage log files switches seamlessly.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="379" y="1170" width="356" height="150" as="geometry" />
+          <mxGeometry x="362" y="1170" width="356" height="150" as="geometry" />
         </mxCell>
         <mxCell id="MGJxTlzYksmv63LTrWDe-7" value="&lt;div&gt;&quot;BEGIN sys.dbms_logmnr.start_logmnr(&quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;startScn =&amp;gt; &#39;&quot; + startScn + &quot;&#39;, &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;endScn =&amp;gt; &#39;&quot; + endScn + &quot;&#39;, &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;OPTIONS =&amp;gt; &quot; + &lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;DBMS_LOGMNR.DICT_FROM_ONLINE_CATALO&lt;/b&gt;&lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;G&lt;/b&gt; &amp;nbsp;+ &lt;b style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;DBMS_LOGMNR.CONTINUOUS_MINE&lt;/b&gt;&amp;nbsp; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; + DBMS_LOGMNR.NO_ROWID_IN_STMT);&quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;END;&quot;;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="1070" width="570" height="200" as="geometry" />
@@ -126,10 +126,10 @@
         <mxCell id="MGJxTlzYksmv63LTrWDe-13" value="start_logmnr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="720" y="1140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MGJxTlzYksmv63LTrWDe-15" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MGJxTlzYksmv63LTrWDe-13">
+        <mxCell id="MGJxTlzYksmv63LTrWDe-15" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="1158" as="sourcePoint" />
-            <mxPoint x="800" y="1158" as="targetPoint" />
+            <mxPoint x="707" y="1158" as="sourcePoint" />
+            <mxPoint x="707" y="1158" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGJxTlzYksmv63LTrWDe-16" value="&lt;h1&gt;database.pdb.name&lt;/h1&gt;Name of the pluggable database when working with a multi-tenant set-up. The CDB name must be given via database.dbname in this case." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
