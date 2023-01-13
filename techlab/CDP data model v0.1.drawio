@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T03:34:29.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="x6VGyw4XoMaAvEJcAl72" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T03:35:33.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="lDxGW2taF7O1_aI_hzmh" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1847" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -905,7 +905,7 @@
         <mxCell id="J1OGWd3zl4CYEi9iUNzg-247" value="end_datetime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
           <mxGeometry y="156" width="189" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="J1OGWd3zl4CYEi9iUNzg-250" value="status (0-invaild/1-vaild)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
+        <mxCell id="J1OGWd3zl4CYEi9iUNzg-250" value="status (0-invalid/1-valid)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
           <mxGeometry y="182" width="189" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l1YyTbR8Ta2khwfbnkkH-0" value="label_id (tag_id/segment_id)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
@@ -914,7 +914,7 @@
         <mxCell id="k5ibrN11tgsrTT50UMlk-68" value="type (tag/segment/segment delivery)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
           <mxGeometry y="234" width="189" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l1YyTbR8Ta2khwfbnkkH-13" value="refresh_frequency&#xa;(week,day,manual)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
+        <mxCell id="l1YyTbR8Ta2khwfbnkkH-13" value="refresh_frequency&#xa;(weekly,daily,manual)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
           <mxGeometry y="260" width="189" height="46" as="geometry" />
         </mxCell>
         <mxCell id="l1YyTbR8Ta2khwfbnkkH-1" value="weekdays" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="J1OGWd3zl4CYEi9iUNzg-244" vertex="1">
