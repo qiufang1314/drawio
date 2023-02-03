@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T04:39:29.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="L1ILLpsUb4utNjapUj--" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T04:41:47.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="8UotB72m66et0C5f2xho" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1021" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,8 +667,11 @@
         <mxCell id="AZorzoyOlLlL3AUpfiVL-12" value="表存在lastUpdatTime" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="6555" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AZorzoyOlLlL3AUpfiVL-14" value="查询这范围内的更新数据[logMinerStartScn,&lt;br&gt;latestAchviedLogEndScn]" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="735" y="6710" width="250" height="70" as="geometry" />
+        <mxCell id="AZorzoyOlLlL3AUpfiVL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AZorzoyOlLlL3AUpfiVL-14" target="AZorzoyOlLlL3AUpfiVL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZorzoyOlLlL3AUpfiVL-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;WHERE LAST_UPDATE_DATETIME &amp;nbsp;between&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;	cast((SELECT SCN_TO_TIMESTAMP(logMinerStartScn) FROM dual) AS date )&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;cast((SELECT SCN_TO_TIMESTAMP(latestAchviedLogEndScn) FROM dual) AS date )&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="575" y="6720" width="570" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AZorzoyOlLlL3AUpfiVL-16" value="查询这范围内的更新数据[logMinerStartScn,&lt;br&gt;latestAchviedLogEndScn]" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1035" y="6560" width="250" height="70" as="geometry" />
