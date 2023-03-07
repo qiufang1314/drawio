@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T03:31:04.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="JlTOXtDPjkox458J0okO" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T03:47:19.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Z0IC_Yqvd70hDA9Bs0P9" version="21.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1021" dy="3035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="x0YCZ6udiLPEyF9Ubb17-0" value="Confluent health check:&amp;nbsp;&lt;br&gt;1) consistent server spec&lt;br&gt;2) access control&lt;br&gt;&amp;nbsp;   OS-level encryption, such as LUKS encryption&lt;br&gt;3) data compression&lt;br&gt;4) producer config&lt;br&gt;    &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;a. acks=all&lt;br&gt;    &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;b. enable.idempotence&lt;br&gt;    &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;c. delivery.timeout.ms, retries, retry.backoff.ms(zk session timeout, 18000ms)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	d. max.in.flight.request.per.connection?&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;5) &amp;nbsp;consumer handler&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;• Dead letter queue with manual remediation plan&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;• Dead letter queue with dedicated error handling workflow &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;• Report and pause&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;• Report and ignore&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="35" y="130" width="895" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="x0YCZ6udiLPEyF9Ubb17-2" value="RTS dashboard 存储方案对比&lt;br&gt;&lt;br&gt;pnshk hbase table data size&lt;br&gt;&lt;br&gt;一个月大概40G，保存2年数据，总的数据大概 1 T" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="890" y="1169" width="590" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
