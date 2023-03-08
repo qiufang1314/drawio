@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T10:09:16.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Rdf0Hf53sVRDSY42nkBB" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T10:34:11.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="0PaD2vvApJYwI7puAkPj" version="21.0.2" type="github">
   <diagram name="第 1 页" id="3pHl03Gl7KUIALnaz5sz">
     <mxGraphModel dx="1848" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,8 +227,8 @@
         <mxCell id="aoOViALbAzrnRGuM8VXM-71" value="HBase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
           <mxGeometry x="1428" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aoOViALbAzrnRGuM8VXM-74" value="测试场景&lt;br&gt;1） ddl&lt;br&gt;2）大数据量压力测试&lt;br&gt;3）异常切换集群&lt;br&gt;4）异常恢复后，切回集成测试" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="700" width="450" height="160" as="geometry" />
+        <mxCell id="aoOViALbAzrnRGuM8VXM-74" value="测试场景&lt;br&gt;1） ddl&lt;br&gt;2）大数据量压力测试&lt;br&gt;3）异常切换集群&lt;br&gt;4）异常恢复后，切回集成测试&lt;br&gt;5) rto, rpo&lt;br&gt;6) 切换流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="710" width="450" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
