@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T06:24:45.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zhUHtNM6F1_7fov64Acl" version="21.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-12T06:27:23.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vIJv2Ntd4-zWcAbNFrwr" version="21.0.7" type="github" pages="2">
   <diagram id="COUtzBLei-FoZ7lU4OIu" name="第 1 页">
     <mxGraphModel dx="2680" dy="1655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2025,6 +2025,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2R9qsq9jj5i2Rw5HPlNI-109" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1457.5" y="2920" width="1072.5" height="990" as="geometry" />
+        </mxCell>
         <mxCell id="2R9qsq9jj5i2Rw5HPlNI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1502" y="3657" width="1004" height="103" as="geometry" />
         </mxCell>
@@ -2366,6 +2369,9 @@
         </mxCell>
         <mxCell id="2R9qsq9jj5i2Rw5HPlNI-108" value="..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="2204.5" y="3020.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9qsq9jj5i2Rw5HPlNI-110" value="CDC2.0 architecture diagram&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1477.5" y="2930" width="212.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
