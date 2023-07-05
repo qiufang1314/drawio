@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T07:23:52.639Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="QaQA1eDnBmiRTKgHW9lu" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T07:42:32.597Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="FmTN0BewxFcHuW49C79N" version="21.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1792" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,11 +153,88 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-59" value="changeLogFileWriter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-53" target="hGps6JvvvFtfqvvxjzNR-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-53" target="hGps6JvvvFtfqvvxjzNR-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="950" />
+              <mxPoint x="530" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-62" value="rollingMergeTreeFileWriter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGps6JvvvFtfqvvxjzNR-61">
+          <mxGeometry x="0.3111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hGps6JvvvFtfqvvxjzNR-53" value="MergeTreeWriter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hGps6JvvvFtfqvvxjzNR-55" value="WriteBuffer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-58" target="hGps6JvvvFtfqvvxjzNR-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-67" value="newChangelogPath" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGps6JvvvFtfqvvxjzNR-64">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-58" value="RollingFIleWriter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-60" target="hGps6JvvvFtfqvvxjzNR-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-68" value="newPath" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGps6JvvvFtfqvvxjzNR-66">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-60" value="RollingFileWriter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-63" target="hGps6JvvvFtfqvvxjzNR-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-81" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGps6JvvvFtfqvvxjzNR-80">
+          <mxGeometry x="-0.025" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-63" value="KeyValueDataFileWriter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-65" value="KeyVaueDataFileWriter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-69" target="hGps6JvvvFtfqvvxjzNR-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-69" value="KeyValueFileWritterFactory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hGps6JvvvFtfqvvxjzNR-71" target="hGps6JvvvFtfqvvxjzNR-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-78" value="createWriterFactory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGps6JvvvFtfqvvxjzNR-77">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-71" value="FileFormat" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-76" value="FormatWriterFactorry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGps6JvvvFtfqvvxjzNR-79" value="KeyValueDataFileWriter&lt;br&gt;updateMinKey&lt;br&gt;updateMaxKey&lt;br&gt;updateMinSeqNumber&lt;br&gt;...." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
