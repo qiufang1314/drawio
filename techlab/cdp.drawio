@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T09:25:24.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="CZmBssNwnB6xosHNu1gP" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T10:24:03.955Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="dHqLNYHZ0a7frbhCHOmm" version="21.6.2" type="github">
   <diagram id="YJtl5HTyZOLG68UvCM0n" name="第 1 页">
     <mxGraphModel dx="965" dy="-472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1893,6 +1893,18 @@
         </mxCell>
         <mxCell id="0aSgKnPsdQEPP7NDcP4C-21" value="l_ptr &amp;gt; r_ptr,, &amp;nbsp; r_ptr process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="902" y="13320" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0aSgKnPsdQEPP7NDcP4C-22" value="split enumerate&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="12290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0aSgKnPsdQEPP7NDcP4C-23" value="split process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="787" y="12290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0aSgKnPsdQEPP7NDcP4C-24" value="select .... where. time between &amp;nbsp;starTime and endTime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487.21" y="12430" width="326" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0aSgKnPsdQEPP7NDcP4C-25" value="&lt;div style=&quot;text-align: start; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;// pod_1: 1,2,3&lt;br&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// pod_2: 4,5&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// 1: (0,1]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// 2: (1,2]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// 3: (2,3]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133); font-family: Menlo-Regular, monospace;&quot;&gt;分钟级别&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// 10_10: (10, 10:10]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;//  10_50: : (10:40, 10:50]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// 10_50_5: (10_45, 10:50]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(122, 126, 133);&quot;&gt;// hour_min_step&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="763" y="12400" width="419" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
