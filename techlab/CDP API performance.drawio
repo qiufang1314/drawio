@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:02:13.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="mU0_QnM2EJO2facogxvg" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T08:50:44.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="NBxHnc0_rz0Se-BiWOom" version="21.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1853" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,37 @@
           <mxGeometry x="-50" y="950" width="400" height="660" as="geometry" />
         </mxCell>
         <mxCell id="qFu9IyAaj8nhZ0rDnuPP-0" value="&lt;h1&gt;adobe delivery&lt;/h1&gt;&lt;p&gt;state table list: 0-31&lt;/p&gt;&lt;p&gt;max parallelism 32&lt;/p&gt;&lt;p&gt;target group job: adjust parallelism by records, 100w - 1 stage table, 200w - 2&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;available stage table pool (0,1 ... 31)&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;fair strategy： FIFO&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;states: &amp;nbsp;target stage table list&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;partiton mums = n*stage table&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-36" y="1680" width="450" height="430" as="geometry" />
+          <mxGeometry x="-90" y="1640" width="450" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-1" value="queryTargetGroupServices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="2240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-2" value="queryTargetInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="2168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-3" value="queryTargetGroupDetail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="2278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-4" value="queryTargetGroupDetail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-5" value="itemType_1, cpuTime,memMB, p1,p2,p3,p4,p5,p7,avgCpuTime, querytStatment&lt;br&gt;itemType_2,cpuTime,memMB,&amp;nbsp;querytStatment&lt;br&gt;&lt;br&gt;&lt;br&gt;service, cpuTime,memMB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="2270" width="480" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-6" value="itemtType_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="2293" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-7" value="itemType_2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="2405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="2630" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-9" value="hash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="2630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qFu9IyAaj8nhZ0rDnuPP-10" value="uuid -&amp;gt; &amp;nbsp;get resource num, time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="2675" width="200" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
