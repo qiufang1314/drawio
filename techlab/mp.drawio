@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T03:23:32.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="K7SG5MoDK9YN46GXjiM2" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T03:26:06.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="sULMW9OJSbH6tXL4j5Vv" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2901" dy="-2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -442,7 +442,7 @@
           <mxGeometry x="-615" y="3590" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-158" value=":MP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940.4" y="4925.25" width="145" height="654.75" as="geometry" />
+          <mxGeometry x="940.4" y="4925.25" width="145" height="790" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-159" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-158">
           <mxGeometry x="67.5" y="140" width="10" height="80" as="geometry" />
@@ -485,6 +485,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-229" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-158">
+          <mxGeometry x="67.6" y="664.75" width="10" height="75.25" as="geometry" />
+        </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-165" value=":CDP&lt;br&gt;API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1140.4" y="4925.25" width="100" height="644.75" as="geometry" />
         </mxCell>
@@ -521,10 +524,13 @@
           <mxGeometry x="1032.9" y="5130.25" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-182" value=":MP Ad channel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="764" y="4925.25" width="145" height="654.75" as="geometry" />
+          <mxGeometry x="764" y="4925.25" width="145" height="754.75" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-183" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-182">
           <mxGeometry x="67.5" y="451" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-231" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-182">
+          <mxGeometry x="65.99999999999997" y="664.75" width="10" height="75.25" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.26;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u9qrnbQwxSg3QtLSXAoY-185" target="u9qrnbQwxSg3QtLSXAoY-183">
           <mxGeometry relative="1" as="geometry">
@@ -611,6 +617,11 @@
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-216" value="CDP Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1700" y="4980" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-232" value="2.1 return candidate Ad" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u9qrnbQwxSg3QtLSXAoY-229" target="u9qrnbQwxSg3QtLSXAoY-231">
+          <mxGeometry x="0.0476" y="-18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
