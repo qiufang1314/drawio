@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T08:21:20.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Vc2wYY5Y7ts0exDiTUNH" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T08:25:22.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="v0DSisP6emL1xfqNIzP_" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2801" dy="-2809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -696,7 +696,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-336" value="SEM" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1210" y="4835" width="820" height="560" as="geometry" />
+          <mxGeometry x="-1210" y="4835" width="862" height="560" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-337" value="MP" style="swimlane;startSize=20;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-336">
           <mxGeometry x="20" width="420" height="560" as="geometry" />
@@ -723,7 +723,7 @@
           <mxGeometry x="130" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-338" value="云店Backend" style="swimlane;startSize=20;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-336">
-          <mxGeometry x="440" width="190" height="560" as="geometry" />
+          <mxGeometry x="440" width="232" height="560" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-347" value="" style="group" vertex="1" connectable="0" parent="u9qrnbQwxSg3QtLSXAoY-338">
           <mxGeometry x="-110" y="75" width="80" height="60" as="geometry" />
@@ -743,8 +743,11 @@
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-356" value="根据搜索关键字获取到词包ID信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-338">
           <mxGeometry x="40" y="195" width="120" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-372" value="搜索词" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-338">
+          <mxGeometry x="172" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-339" value="云店小程序" style="swimlane;startSize=20;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-336">
-          <mxGeometry x="630" width="190" height="560" as="geometry" />
+          <mxGeometry x="672" width="190" height="560" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u9qrnbQwxSg3QtLSXAoY-339" source="u9qrnbQwxSg3QtLSXAoY-352" target="u9qrnbQwxSg3QtLSXAoY-353">
           <mxGeometry relative="1" as="geometry" />
