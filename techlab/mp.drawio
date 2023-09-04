@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T07:19:44.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="DCTVRAew-p1domVnn2MM" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T07:44:07.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="jUZnbFFfUMrxM7FioE8A" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4533" dy="-2687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4016" dy="-3030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -414,7 +414,7 @@
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-176" value="2.1 response: tagArray:&lt;br&gt;&amp;nbsp;[ tagId,tagName, tagValue, tagDesc]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="997.9000000000001" y="5130.25" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9qrnbQwxSg3QtLSXAoY-182" value=":MP Ad channel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-182" value=":MP Ad channel&lt;br&gt;mComm/PNS eStore..." style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="764" y="4925.25" width="145" height="754.75" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-183" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="u9qrnbQwxSg3QtLSXAoY-182" vertex="1">
@@ -1298,6 +1298,18 @@
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-167" value="计划推送量计算" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1068" y="7070" width="346" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-169" value="cid -&amp;gt; tagId, tagVlaue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1490" y="5530" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ukg36Y9-KP1Ung6SqyU3-172" target="Ukg36Y9-KP1Ung6SqyU3-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-172" value="member id -&amp;gt; cid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="5458.75" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-173" value="card number -&amp;gt; cid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="5419" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
