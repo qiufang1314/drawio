@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T06:15:41.571Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="wadVuBQByStGMi4y6ByG" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T07:19:44.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="DCTVRAew-p1domVnn2MM" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4323" dy="-2687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4533" dy="-2687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -899,7 +899,7 @@
           <mxGeometry x="-770" y="6750" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-429" value="广告投放流程" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1190" y="7090" width="1652.71" height="1790" as="geometry" />
+          <mxGeometry x="-1190" y="7090" width="1830" height="1790" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-434" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="u9qrnbQwxSg3QtLSXAoY-429" source="u9qrnbQwxSg3QtLSXAoY-430" target="u9qrnbQwxSg3QtLSXAoY-431" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1053,7 +1053,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9qrnbQwxSg3QtLSXAoY-505" value="过滤 曝光达到最大值的计划" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-505" value="过滤 曝光达到 计划的最大推送量" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
           <mxGeometry x="840" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-507" value="筛选出符合词包的计划" style="whiteSpace=wrap;html=1;rounded=0;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
@@ -1168,6 +1168,9 @@
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u9qrnbQwxSg3QtLSXAoY-429" source="Ukg36Y9-KP1Ung6SqyU3-147" target="Ukg36Y9-KP1Ung6SqyU3-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u9qrnbQwxSg3QtLSXAoY-429" source="Ukg36Y9-KP1Ung6SqyU3-147" target="Ukg36Y9-KP1Ung6SqyU3-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-147" value="Rate计算" style="whiteSpace=wrap;html=1;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
           <mxGeometry x="967" y="990" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1178,7 +1181,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-150" value="Rate= 当前的曝光率 / 投放日期对应的总的投放量" style="whiteSpace=wrap;html=1;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-150" value="Rate= 当前的曝光率 / 投放日期对应的 库存" style="whiteSpace=wrap;html=1;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
           <mxGeometry x="1127" y="884" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u9qrnbQwxSg3QtLSXAoY-429" source="Ukg36Y9-KP1Ung6SqyU3-158" target="u9qrnbQwxSg3QtLSXAoY-575">
@@ -1187,8 +1190,11 @@
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-158" value="按照Rate进行 生序排序所有CPM 类型计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
           <mxGeometry x="967" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-163" value="单个计划的 每天的推送量不会大于 每天的总量，但是所有计划的推送量和是可能大于 每天的总量" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
-          <mxGeometry x="967" y="235" width="243" height="130" as="geometry" />
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-165" value="广告推送Rate 计算" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
+          <mxGeometry x="1280" y="990" width="550" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-168" value="&lt;div&gt;//1.如果有定向+无定向的总采买量 &amp;lt; 库存，此时百分比计算为不需要专门的系数&lt;/div&gt;&lt;div&gt;//2.如果有定向+无定向的总采买量 &amp;gt; 库存，此时有定向的需要乘以&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ukg36Y9-KP1Ung6SqyU3-165">
+          <mxGeometry x="40" y="43" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-10" value="广告媒体&#xa;(mp_publishers)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2810" y="7020" width="320" height="160" as="geometry" />
@@ -1286,6 +1292,12 @@
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-48" value="1:N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1980" y="7300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-163" value="单个计划的 每天的推送量不会大于 每天的总量，但是所有计划的推送量和是可能大于 每天的总量" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="7599" width="243" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-167" value="计划推送量计算" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1068" y="7070" width="346" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
