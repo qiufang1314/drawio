@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T08:42:49.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="UFhoUqQLwmL6zaDwdOAS" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T08:50:12.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="owvwllfeqOaCVsSMd1-M" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4389" dy="-2818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -617,7 +617,7 @@
         <mxCell id="m231ShkFa1NsD1ZHE8ZI-38" value="加上BU_CODE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-234">
           <mxGeometry x="360" y="430.8" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m231ShkFa1NsD1ZHE8ZI-40" value="next tag value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-234">
+        <mxCell id="m231ShkFa1NsD1ZHE8ZI-40" value="update cid -&amp;gt; tagid bitmap" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-234">
           <mxGeometry x="520.75" y="256.8000000000002" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-252" value="open channel: tag list mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
