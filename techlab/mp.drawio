@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T11:06:22.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="AB_TNQkKXGao8ISxTGCM" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T01:02:07.783Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Qi-mcPpKGJV1SeyQ6Ycm" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3507" dy="-2810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1065,7 +1065,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9qrnbQwxSg3QtLSXAoY-505" value="过滤 曝光达到 计划的最大推送量" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
+        <mxCell id="u9qrnbQwxSg3QtLSXAoY-505" value="过滤 曝光达到 计划的最大推送量（购买数量）" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
           <mxGeometry x="840" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9qrnbQwxSg3QtLSXAoY-507" value="筛选出符合词包的计划" style="whiteSpace=wrap;html=1;rounded=0;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
@@ -1184,7 +1184,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-147" value="计算曝光率 比例" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
-          <mxGeometry x="967" y="993" width="120" height="60" as="geometry" />
+          <mxGeometry x="967" y="992" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="u9qrnbQwxSg3QtLSXAoY-429" source="Ukg36Y9-KP1Ung6SqyU3-150" target="Ukg36Y9-KP1Ung6SqyU3-158" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1193,7 +1193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-150" value="= 当前的曝光率 / 投放日期对应的 库存" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
+        <mxCell id="Ukg36Y9-KP1Ung6SqyU3-150" value="= 当前的曝光率 / 投放点位对应投放日期库存" style="whiteSpace=wrap;html=1;" parent="u9qrnbQwxSg3QtLSXAoY-429" vertex="1">
           <mxGeometry x="1127" y="883" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="u9qrnbQwxSg3QtLSXAoY-429" source="Ukg36Y9-KP1Ung6SqyU3-158" target="u9qrnbQwxSg3QtLSXAoY-575" edge="1">
@@ -1399,7 +1399,7 @@
           <mxGeometry x="-560" y="9265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m231ShkFa1NsD1ZHE8ZI-0" value="数据处理-频次报表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1190" y="7250" width="140" height="30" as="geometry">
+          <mxGeometry x="-1970" y="7630" width="140" height="30" as="geometry">
             <mxRectangle x="-1190" y="7250" width="1050" height="720" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
