@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T03:13:36.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="jzNKelmVylaowvD3bY28" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T03:14:24.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Hm0qVBK0GER2V_yj4X5_" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3585" dy="-2810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -907,13 +907,13 @@
           <mxGeometry x="205.5" y="1008" width="161.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m231ShkFa1NsD1ZHE8ZI-61" value="&lt;br&gt;&lt;br&gt;优先保证非定向集和中的计划广告的投放&lt;br&gt;&lt;br&gt;非定向集和：均衡&lt;br&gt;&lt;br&gt;定向集和：均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
-          <mxGeometry x="700.75" y="946" width="260.75" height="106" as="geometry" />
+          <mxGeometry x="751.25" y="920" width="228.75" height="106" as="geometry" />
         </mxCell>
         <mxCell id="m231ShkFa1NsD1ZHE8ZI-125" value="定向，广告平台，不做报量&lt;br&gt;没有定向，默认尽量报量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
           <mxGeometry x="1192" y="810" width="178" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m231ShkFa1NsD1ZHE8ZI-126" value="定向集合 与 非定向集合二选择一&lt;br&gt;推送量排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
-          <mxGeometry x="490" y="1080" width="219" height="30" as="geometry" />
+        <mxCell id="m231ShkFa1NsD1ZHE8ZI-126" value="定向集合 与 非定向集合二选择一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u9qrnbQwxSg3QtLSXAoY-429">
+          <mxGeometry x="506.5" y="1033" width="219" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ukg36Y9-KP1Ung6SqyU3-10" value="广告媒体&#xa;(mp_publishers)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-2430" y="7020" width="320" height="160" as="geometry" />
