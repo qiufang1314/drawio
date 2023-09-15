@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T03:08:19.083Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="mlcz6PmF_xnUXZgmlDIW" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T03:09:45.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="pQcjp2_ZlYs88SjJm0Xl" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4334" dy="-1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2146,12 +2146,6 @@
         <mxCell id="bR2kOfglzXSuihkz8E_5-262" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-106">
           <mxGeometry x="320" y="758.5" width="145" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="bR2kOfglzXSuihkz8E_5-274" value="https://mpadvert.ms-uat.aswatson.net/mp/v1.0.0/{buCode}/ad/AdMaterial" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-106">
-          <mxGeometry x="217" y="165" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bR2kOfglzXSuihkz8E_5-275" value="http://{minioip}/{bucket name}/Ym/.." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-106">
-          <mxGeometry x="30" y="606" width="350" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="bR2kOfglzXSuihkz8E_5-210" value="MP PNS&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2990" y="10600" width="910" height="910" as="geometry" />
         </mxCell>
@@ -2212,10 +2206,10 @@
         <mxCell id="bR2kOfglzXSuihkz8E_5-225" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-210">
           <mxGeometry x="75" y="632" width="665" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="bR2kOfglzXSuihkz8E_5-226" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;entryX=0.068;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bR2kOfglzXSuihkz8E_5-210">
+        <mxCell id="bR2kOfglzXSuihkz8E_5-226" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;exitX=0.12;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bR2kOfglzXSuihkz8E_5-210" source="bR2kOfglzXSuihkz8E_5-255">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="136" y="230" as="sourcePoint" />
-            <mxPoint x="136.22000000000025" y="635.991" as="targetPoint" />
+            <mxPoint x="136" y="240" as="sourcePoint" />
+            <mxPoint x="136" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bR2kOfglzXSuihkz8E_5-227" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;" edge="1" parent="bR2kOfglzXSuihkz8E_5-210">
@@ -2345,7 +2339,13 @@
           <mxGeometry x="680" y="785" width="47.5" height="37" as="geometry" />
         </mxCell>
         <mxCell id="bR2kOfglzXSuihkz8E_5-273" value="DaoCloud &amp;nbsp;Gatway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-210">
-          <mxGeometry x="180" y="240" width="560" height="22" as="geometry" />
+          <mxGeometry x="180" y="248" width="560" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="bR2kOfglzXSuihkz8E_5-276" value="https://mpadvert.ms-uat.aswatson.net/mp/v1.0.0/{buCode}/ad/AdMaterial" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-210">
+          <mxGeometry x="216" y="224" width="434" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bR2kOfglzXSuihkz8E_5-275" value="http://{minioip}/{bucket name}/Ym/.." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="bR2kOfglzXSuihkz8E_5-210">
+          <mxGeometry x="17.5" y="633" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
