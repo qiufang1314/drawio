@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T03:37:39.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Zwc2FSxy546zh2prOxYm" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T03:44:06.035Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="G6bGvvczfiZ6rwjdBNLO" version="21.6.6" type="github">
   <diagram name="第 1 页" id="bPkFeG58dfKmsc8ZUoCN">
     <mxGraphModel dx="1075" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,9 +282,6 @@
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DNYjfMAV2zHhLQ8XaPqh-93" source="DNYjfMAV2zHhLQ8XaPqh-30" target="DNYjfMAV2zHhLQ8XaPqh-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-66" value="Job1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-93">
-          <mxGeometry x="216" y="56" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-71" value="同一用户同一资源点位，同一创意聚合保存，保存最新一条数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-93">
           <mxGeometry x="523" y="166" width="215" height="60" as="geometry" />
         </mxCell>
@@ -293,9 +290,6 @@
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DNYjfMAV2zHhLQ8XaPqh-93" source="DNYjfMAV2zHhLQ8XaPqh-35" target="DNYjfMAV2zHhLQ8XaPqh-88">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-69" value="Job2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-93">
-          <mxGeometry x="56" y="241" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-70" value="batch 任务，每天凌晨1点运行，统计按用户，资源点位，创意聚合保存，保存最新一条数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-93">
           <mxGeometry x="80" y="286" width="210" height="30" as="geometry" />
@@ -397,6 +391,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNYjfMAV2zHhLQ8XaPqh-97" source="DNYjfMAV2zHhLQ8XaPqh-111" target="DNYjfMAV2zHhLQ8XaPqh-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-111" value="购买的商品是否是广告投放的店，投放的商品？&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-97">
           <mxGeometry x="385" y="350" width="80" height="80" as="geometry" />
         </mxCell>
@@ -405,6 +402,39 @@
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-115" value="平分到匹配到的创意" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-97">
           <mxGeometry x="540" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-116" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-97">
+          <mxGeometry x="388" y="460" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-146" value="attribute time report" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2923" width="770" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNYjfMAV2zHhLQ8XaPqh-146" source="DNYjfMAV2zHhLQ8XaPqh-147" target="DNYjfMAV2zHhLQ8XaPqh-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-147" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.clock;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-146">
+          <mxGeometry x="35" y="97" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-148" value="基于统计后的频次报表数据计算&lt;br&gt;24H/7 D/ 15 D/.. 报表" style="whiteSpace=wrap;html=1;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-146">
+          <mxGeometry x="100" y="82" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-150" value="PHP Command calculate multiple dimension report" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3190" width="770" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNYjfMAV2zHhLQ8XaPqh-150" source="DNYjfMAV2zHhLQ8XaPqh-152" target="DNYjfMAV2zHhLQ8XaPqh-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-152" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.clock;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-150">
+          <mxGeometry x="35" y="97" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-153" value="生成不同维度的报表数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-150">
+          <mxGeometry x="100" y="82" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-154" value="Ad click data process flow" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1754" width="390" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-172" value="。。。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DNYjfMAV2zHhLQ8XaPqh-154">
+          <mxGeometry x="150" y="75" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
