@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T03:54:45.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="oE9CkhqUYkwq4OpNOaBo" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T05:43:37.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="RvGdAGVZDnhHM4x370Yy" version="21.6.6" type="github">
   <diagram name="第 1 页" id="bPkFeG58dfKmsc8ZUoCN">
-    <mxGraphModel dx="1075" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="855" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,39 +134,41 @@
         </mxCell>
         <mxCell id="cy8ZLoVMOyac3jTYZGZs-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="980" as="sourcePoint" />
-            <mxPoint x="770" y="980" as="targetPoint" />
+            <mxPoint x="15" y="860" as="sourcePoint" />
+            <mxPoint x="765" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-1" value="PLP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1000" width="60" height="30" as="geometry" />
+          <mxGeometry x="35" y="860" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DNYjfMAV2zHhLQ8XaPqh-2" target="DNYjfMAV2zHhLQ8XaPqh-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DNYjfMAV2zHhLQ8XaPqh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DNYjfMAV2zHhLQ8XaPqh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-2" value="API:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;request:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;app_id&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;page_id: enum type(product_list_page_1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="106" y="1040" width="344" height="80" as="geometry" />
+          <mxGeometry x="101" y="900" width="344" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-5" value="API:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;response: &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;item_code&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1040" width="344" height="80" as="geometry" />
+          <mxGeometry x="565" y="910" width="344" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="226" y="1228" as="sourcePoint" />
-            <mxPoint x="335" y="1228" as="targetPoint" />
+            <mxPoint x="221" y="1088" as="sourcePoint" />
+            <mxPoint x="330" y="1088" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DNYjfMAV2zHhLQ8XaPqh-7" target="DNYjfMAV2zHhLQ8XaPqh-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-7" value="PNSHK APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="101" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-8" value="MP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-10" value="1. Get Add&lt;br&gt;appid&lt;br&gt;page_id: ppl_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1169" width="170" height="30" as="geometry" />
+          <mxGeometry x="185" y="1029" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DNYjfMAV2zHhLQ8XaPqh-11" target="cy8ZLoVMOyac3jTYZGZs-3">
           <mxGeometry relative="1" as="geometry" />
@@ -179,18 +181,18 @@
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-13" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="326" y="1255" as="sourcePoint" />
-            <mxPoint x="236" y="1255" as="targetPoint" />
+            <mxPoint x="321" y="1115" as="sourcePoint" />
+            <mxPoint x="231" y="1115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-14" value="2. item_code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1270" width="75" height="30" as="geometry" />
+          <mxGeometry x="240" y="1130" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-15" value="PNSHK APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106" y="1350" width="120" height="60" as="geometry" />
+          <mxGeometry x="101" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-17" value="2. get item detail info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1300" width="130" height="30" as="geometry" />
+          <mxGeometry x="35" y="1160" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DNYjfMAV2zHhLQ8XaPqh-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MP_ADS_AD_CREATIVITY_LOGS_V5_B&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; PURE_DATE  /* 天 */: int(11)&lt;br/&gt; HOUR  /* 小时 */: int(11)&lt;br/&gt; ADVERT_GROUP_ID  /* 广告组ID */: int(11)&lt;br/&gt; ADVERT_PLAN_ID  /* 广告计划ID */: int(11)&lt;br/&gt; IS_SUBSTITUTION  /* 是否为置换计划，1=是，0=否 */: tinyint(4)&lt;br/&gt; ADVERT_CREATIVITY_ID  /* 广告创意ID */: int(11)&lt;br/&gt; SLOT_ID  /* 点位ID */: int(11)&lt;br/&gt; STAT_DATE  /* 统计日期 */: date&lt;br/&gt; STAT_HOUR  /* 统计小时 */: varchar(1)&lt;br/&gt; PV_COUNT  /* 曝光数 */: int(11)&lt;br/&gt; CLICK_COUNT  /* 点击数 */: int(11)&lt;br/&gt; COST  /* 花费 */: decimal(10)&lt;br/&gt; PRODUCT_PV_24H_PASS  /* 首24小时商品浏览数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_PV_24H_PASS  /* 首24小时加购数（曝光路过归因） */: int(11)&lt;br/&gt; ORDER_PV_24H_PASS  /* 首24小时下单次数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_COUNT_24H_PASS  /* 首24小时购买件数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_PV_24H_PASS  /* 首24小时支付次数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COUNT_24H_PASS  /* 首24小时支付订单数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COST_24H_PASS  /* 首24小时支付金额（元）（曝光路过归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_24H_IMP  /* 首24小时商品浏览数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_PV_24H_IMP  /* 首24小时加购数（曝光归因） */: bigint(20)&lt;br/&gt; ORDER_PV_24H_IMP  /* 首24小时下单次数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_24H_IMP  /* 首24小时购买件数（曝光归因） */: int(11)&lt;br/&gt; PAY_PV_24H_IMP  /* 首24小时支付次数（曝光归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_24H_IMP  /* 首24小时支付订单数（曝光末次归因） */: int(11)&lt;br/&gt; PAY_COST_24H_IMP  /* 首24小时支付金额（元）（曝光归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_24H_CLICK  /* 首24小时商品浏览数（点击归因） */: bigint(20)&lt;br/&gt; BUY_PV_24H_CLICK  /* 首24小时加购数（点击归因） */: bigint(20)&lt;br/&gt; ORDER_PV_24H_CLICK  /* 首24小时下单次数（点击归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_24H_CLICK  /* 首24小时购买件数（点击归因） */: int(11)&lt;br/&gt; PAY_PV_24H_CLICK  /* 首24小时支付次数（点击归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_24H_CLICK  /* 首24小时支付订单数（点击末次归因） */: int(11)&lt;br/&gt; PAY_COST_24H_CLICK  /* 首24小时支付金额（元）（点击归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_7D_PASS  /* 7日商品浏览数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_PV_7D_PASS  /* 7日加购数（曝光路过归因） */: int(11)&lt;br/&gt; ORDER_PV_7D_PASS  /* 7日下单次数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_COUNT_7D_PASS  /* 7日购买件数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_PV_7D_PASS  /* 7日支付次数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COUNT_7D_PASS  /* 7日支付订单数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COST_7D_PASS  /* 7日支付金额（元）（曝光路过归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_7D_IMP  /* 7日商品浏览数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_PV_7D_IMP  /* 7日加购数（曝光归因） */: bigint(20)&lt;br/&gt; ORDER_PV_7D_IMP  /* 7日下单次数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_7D_IMP  /* 7日购买件数（曝光归因） */: int(11)&lt;br/&gt; PAY_PV_7D_IMP  /* 7日支付次数（曝光归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_7D_IMP  /* 7日支付订单数（曝光末次归因） */: int(11)&lt;br/&gt; PAY_COST_7D_IMP  /* 7日支付金额（元）（曝光归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_7D_CLICK  /* 7日商品浏览数（点击归因） */: bigint(20)&lt;br/&gt; BUY_PV_7D_CLICK  /* 7日加购数（点击归因） */: bigint(20)&lt;br/&gt; ORDER_PV_7D_CLICK  /* 7日下单次数（点击归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_7D_CLICK  /* 7日购买件数（点击归因） */: int(11)&lt;br/&gt; PAY_PV_7D_CLICK  /* 7日支付次数（点击归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_7D_CLICK  /* 7日支付订单数（点击末次归因） */: int(11)&lt;br/&gt; PAY_COST_7D_CLICK  /* 7日支付金额（元）（点击归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_15D_PASS  /* 15日商品浏览数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_PV_15D_PASS  /* 15日加购数（曝光路过归因） */: int(11)&lt;br/&gt; ORDER_PV_15D_PASS  /* 15日下单次数（曝光路过归因） */: int(11)&lt;br/&gt; BUY_COUNT_15D_PASS  /* 15日购买件数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_PV_15D_PASS  /* 15日支付次数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COUNT_15D_PASS  /* 15日支付订单数（曝光路过归因） */: int(11)&lt;br/&gt; PAY_COST_15D_PASS  /* 15日支付金额（元）（曝光路过归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_15D_IMP  /* 15日商品浏览数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_PV_15D_IMP  /* 15日加购数（曝光归因） */: bigint(20)&lt;br/&gt; ORDER_PV_15D_IMP  /* 15日下单次数（曝光归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_15D_IMP  /* 15日购买件数（曝光归因） */: int(11)&lt;br/&gt; PAY_PV_15D_IMP  /* 15日支付次数（曝光归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_15D_IMP  /* 15日支付订单数（曝光末次归因） */: int(11)&lt;br/&gt; PAY_COST_15D_IMP  /* 15日支付金额（元）（曝光归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_15D_CLICK  /* 15日商品浏览数（点击归因） */: bigint(20)&lt;br/&gt; BUY_PV_15D_CLICK  /* 15日加购数（点击归因） */: bigint(20)&lt;br/&gt; ORDER_PV_15D_CLICK  /* 15日下单次数（点击归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_15D_CLICK  /* 15日购买件数（点击归因） */: int(11)&lt;br/&gt; PAY_PV_15D_CLICK  /* 15日支付次数（点击归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_15D_CLICK  /* 15日支付订单数（点击末次归因） */: int(11)&lt;br/&gt; PAY_COST_15D_CLICK  /* 15日支付金额（元）（点击归因） */: decimal(10)&lt;br/&gt; PRODUCT_PV_30D_CLICK  /* 30日商品浏览数（点击归因） */: bigint(20)&lt;br/&gt; BUY_PV_30D_CLICK  /* 30日加购数（点击归因） */: bigint(20)&lt;br/&gt; ORDER_PV_30D_CLICK  /* 30日下单次数（点击归因） */: bigint(20)&lt;br/&gt; BUY_COUNT_30D_CLICK  /* 30日购买件数（点击归因） */: int(11)&lt;br/&gt; PAY_PV_30D_CLICK  /* 30日支付次数（点击归因） */: bigint(20)&lt;br/&gt; PAY_COUNT_30D_CLICK  /* 30日支付订单数（点击末次归因） */: int(11)&lt;br/&gt; PAY_COST_30D_CLICK  /* 30日支付金额（元）（点击归因） */: decimal(10)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="2731" y="1629" width="494" height="2007" as="geometry" />
