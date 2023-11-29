@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T01:02:11.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="CShlD2lCSzWzh90TIBkJ" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T02:25:29.156Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="n0p1ZLCc65dWKAtzO2aJ" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1009" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -228,6 +228,30 @@
         </mxCell>
         <mxCell id="gaQpJ8RURVUWGQbeZxwf-80" value="search&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gaQpJ8RURVUWGQbeZxwf-41">
           <mxGeometry x="595" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-112" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1875" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-114" value="flink runtime env&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（k8s）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="1895" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-115" value="web submit&lt;br&gt;Embed Execute" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315" y="1935" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gaQpJ8RURVUWGQbeZxwf-116" target="gaQpJ8RURVUWGQbeZxwf-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-118" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1840" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-116" value="Flink Client&lt;br&gt;remote (restful)/yarn/k8s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-119" value="Job schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gaQpJ8RURVUWGQbeZxwf-120" value="bin/flink run" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="1870" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
