@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T06:46:09.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="N-kQch4ZwhwI8vkk8u9C" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:43:55.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="AV7gqL2XZy9R9OU0e35Y" version="22.1.11" type="github" pages="2">
   <diagram id="COUtzBLei-FoZ7lU4OIu" name="第 1 页">
     <mxGraphModel dx="1733" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2020,12 +2020,6 @@
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-1" value="1) &amp;nbsp;member id &amp;nbsp;table left anti join mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="417" y="12600" width="227" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YMZn8YJXmcRc5cQh-bTX-2" value="mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425.91" y="12870" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YMZn8YJXmcRc5cQh-bTX-3" value="mapping table&lt;br&gt;member id &amp;nbsp;union_id&lt;br&gt;&lt;br&gt;left join mapping table&lt;br&gt;&lt;br&gt;&lt;br&gt;with () tmp table&lt;br&gt;&lt;br&gt;&lt;br&gt;select uuid(member_id, union_id), member id left join mapping table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="419.1" y="12950" width="195" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-4" value="2) &amp;nbsp;insert mapping table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="419" y="12640" width="227" height="30" as="geometry" />
         </mxCell>
@@ -2141,6 +2135,9 @@
         </mxCell>
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-38" value="end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="1183.56" y="13930" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YMZn8YJXmcRc5cQh-bTX-42" value="1. tag calculation &amp;nbsp;by member id &amp;amp; contact id&lt;br&gt;2. table schema revamp&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;2.1 order item redundant fields&lt;br/&gt;&lt;/span&gt;3. eu poc env preparation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="12990" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
