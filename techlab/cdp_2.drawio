@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T06:41:55.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Nzfqexk5sYx8ibUjKNCC" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-02T06:46:09.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="N-kQch4ZwhwI8vkk8u9C" version="22.1.11" type="github" pages="2">
   <diagram id="COUtzBLei-FoZ7lU4OIu" name="第 1 页">
     <mxGraphModel dx="1733" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2070,7 +2070,7 @@
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMZn8YJXmcRc5cQh-bTX-17" target="YMZn8YJXmcRc5cQh-bTX-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YMZn8YJXmcRc5cQh-bTX-17" value="Operator&amp;nbsp;&lt;br&gt;open&lt;br&gt;initial member id number = max member id&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YMZn8YJXmcRc5cQh-bTX-17" value="Operator&amp;nbsp;&lt;br&gt;open&lt;br&gt;initial member id number = max member id&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="439.5" y="13690" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMZn8YJXmcRc5cQh-bTX-19" target="YMZn8YJXmcRc5cQh-bTX-21">
@@ -2088,7 +2088,7 @@
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMZn8YJXmcRc5cQh-bTX-24" target="YMZn8YJXmcRc5cQh-bTX-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YMZn8YJXmcRc5cQh-bTX-24" value="Operator&amp;nbsp;&lt;br&gt;open&lt;br&gt;initial contact id number = max contact &amp;nbsp;id number" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YMZn8YJXmcRc5cQh-bTX-24" value="Operator&amp;nbsp;&lt;br&gt;open&lt;br&gt;initial contact id number = max contact &amp;nbsp;id number" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="815.35" y="13805" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YMZn8YJXmcRc5cQh-bTX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMZn8YJXmcRc5cQh-bTX-25" target="YMZn8YJXmcRc5cQh-bTX-38">
