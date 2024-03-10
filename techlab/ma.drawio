@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T10:29:35.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="SJv7iqJniGW8XLTZkTav" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T10:30:20.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="1I6r-ee9cGNVtHl8u4QM" version="23.1.5" type="github">
   <diagram name="第 1 页" id="G-2zZHItxkKgOJlrZNLq">
     <mxGraphModel dx="1853" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1091,7 +1091,7 @@
           <mxGeometry x="255" y="7870" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JdtSm8xEx83oGum4pMEJ-83" value="定义规则：&lt;br&gt;规则类型：事件次数规则，事件序列规则，事件属性值统计规则" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460.2" y="8140" width="366" height="30" as="geometry" />
+          <mxGeometry x="485.75" y="8140" width="366" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JdtSm8xEx83oGum4pMEJ-84" value="定义触达方式" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="7750" width="366" height="30" as="geometry" />
@@ -1132,8 +1132,8 @@
         <mxCell id="JdtSm8xEx83oGum4pMEJ-99" value="触达流程：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-190.37" y="8210" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JdtSm8xEx83oGum4pMEJ-100" value="触达效果：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-190.37" y="8390" width="100" height="30" as="geometry" />
+        <mxCell id="JdtSm8xEx83oGum4pMEJ-100" value="触达转换率：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-190.37" y="8390" width="110.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JdtSm8xEx83oGum4pMEJ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JdtSm8xEx83oGum4pMEJ-101" target="JdtSm8xEx83oGum4pMEJ-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
