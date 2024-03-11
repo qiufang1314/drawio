@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T10:40:01.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="_8XKfRsq9sz0lHR0umdm" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T09:26:32.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="SW76117SwB9HB6ob6FPX" version="23.1.5" type="github">
   <diagram name="第 1 页" id="G-2zZHItxkKgOJlrZNLq">
-    <mxGraphModel dx="2293" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1181,6 +1181,96 @@
         </mxCell>
         <mxCell id="cBHn0B8DLmqlCwvrAl54-8" value="触达转换率设置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="854" y="8040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-13" value="1. event action cnt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15.07" y="8670" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-37" value="key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="91" y="8800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-38" value="map state" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175.82" y="8800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-39" value="rule_id:data_key:action_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="8800" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-40" value="cnt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="8800" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-41" value="用户1天内购买商品金额&amp;gt;100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="8700" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-42" target="cBHn0B8DLmqlCwvrAl54-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-42" value="key by uid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141.07" y="8880" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-43" target="cBHn0B8DLmqlCwvrAl54-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-43" target="cBHn0B8DLmqlCwvrAl54-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-43" value="event_name=pay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299.57" y="8880" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-45" target="cBHn0B8DLmqlCwvrAl54-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-45" value="event_time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454.82" y="8880" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-47" target="cBHn0B8DLmqlCwvrAl54-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-47" value="payamount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601.07" y="8880" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-49" target="cBHn0B8DLmqlCwvrAl54-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-49" value="rule_id:cond_id:uid:window:payamount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.0000000000001" y="8954" width="168.93" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-52" target="cBHn0B8DLmqlCwvrAl54-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-52" value="accumulate amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.0000000000001" y="9025" width="168.93" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-54" value="rule_id:uid:cnt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770.0000000000001" y="9025" width="168.93" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-56" value="用户查看某某类型商品 多少次" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="8738" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBHn0B8DLmqlCwvrAl54-57" target="cBHn0B8DLmqlCwvrAl54-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-57" value="event_name=view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="9110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-59" value="rule_id:cond_id:uid:cnt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.0000000000001" y="9110" width="168.93" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-61" value="用户 一天内 每个账号 购买金额" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="148.75" y="9240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-62" value="rule_id:cond_id:stream_key:window:agg_att" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="9260" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-63" value="rule_id:cond_id:stream_key:window:cnt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="437" y="9300" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-64" value="1. event action seq" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15.07" y="9400" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-65" value="用户1天内（登录，登出） 多次，时间间隔3s" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.13" y="9470" width="296.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHn0B8DLmqlCwvrAl54-66" value="followed， not followed in window time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175.5" y="9440" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
