@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="25.0.3">
+  <diagram id="aBkQOocO6uWEWQsjhiZ1" name="第 1 页">
+    <mxGraphModel dx="1609" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AIMAS_EVENT_GENERIC_RULE  /* 通用事件规则 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; BU_CODE: varchar(32)&lt;br/&gt; BIZ_ID  /* 外部业务系统编号 */: varchar(256)&lt;br/&gt; BIZ_RULE_NAME  /* 规则名称 */: varchar(128)&lt;br/&gt; EVENT_TYPE  /* 事件类型 1.简单事件，2.组合事件，3.统计事件 */: smallint&lt;br/&gt; SOURCE  /* 来源渠道 */: varchar(32)&lt;br/&gt; CONDITIONS  /* 规则生成条件 */: json&lt;br/&gt; RULE_JSON  /* 规则配置信息 */: json&lt;br/&gt; RULE_DRL  /* 规则drl */: text&lt;br/&gt; TEMPLATE_TYPE  /* 模版类型 0.非模板，1.模板 */: smallint&lt;br/&gt; TEMPLATE_ID  /* 模板ID */: bigint&lt;br/&gt; EVENTS  /* 匹配事件，多个用,分隔 */: varchar(512)&lt;br/&gt; SINK_FIELDS  /* 输出的结果字段，多个用&amp;quot;,&amp;quot;隔开 */: text&lt;br/&gt; SINK_CHANNEL  /* 输出渠道（CDC,Workflow,OptimO） */: varchar(256)&lt;br/&gt; DELETED  /* 是否删除 0.未删除，1.已删除 */: smallint&lt;br/&gt; TIMEZONE: varchar(32)&lt;br/&gt; CREATE_TIME: datetime&lt;br/&gt; UPDATE_TIME: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ID: bigint&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="-230" width="433" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="node0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AIMAS_EVENT_RULE_TEMPLATE&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; BU_CODE: varchar(36)&lt;br/&gt; RULE_NAME  /* RULE_NAME */: varchar(100)&lt;br/&gt; RULE_TYPE  /* RULE_TYPE */: smallint&lt;br/&gt; TEMPLATE_PARAM  /* 模版参数 */: json&lt;br/&gt; RULE_DRL: text&lt;br/&gt; CREATE_TIME: datetime&lt;br/&gt; UPDATE_TIME: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ID: bigint&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-220" width="294" height="232" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
