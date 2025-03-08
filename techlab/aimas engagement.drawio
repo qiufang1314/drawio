@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="Tgx1bqKsLs8PZ8dt4VcN">
-    <mxGraphModel dx="1925" dy="1821" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2071" dy="1908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,21 +407,6 @@
         <mxCell id="QtOKSeVlvf_DVjxNgbwE-8" value="Adobe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="701" y="1222.25" width="120" height="34.75" as="geometry" />
         </mxCell>
-        <mxCell id="QtOKSeVlvf_DVjxNgbwE-9" value="App/InApp push" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="473" y="1598" width="88" height="22.4" as="geometry" />
-        </mxCell>
-        <mxCell id="QtOKSeVlvf_DVjxNgbwE-10" value="Email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="473" y="1620.4" width="88" height="22.4" as="geometry" />
-        </mxCell>
-        <mxCell id="QtOKSeVlvf_DVjxNgbwE-11" value="SMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="561" y="1598.0000000000002" width="88" height="22.4" as="geometry" />
-        </mxCell>
-        <mxCell id="QtOKSeVlvf_DVjxNgbwE-12" value="Line" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="561" y="1620.4000000000003" width="88" height="22.4" as="geometry" />
-        </mxCell>
-        <mxCell id="QtOKSeVlvf_DVjxNgbwE-14" value="Engagement channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="729" y="1620.4000000000003" width="88" height="22.4" as="geometry" />
-        </mxCell>
         <mxCell id="QtOKSeVlvf_DVjxNgbwE-20" value="" style="group;fontSize=9;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="375" y="1379" width="146" height="80" as="geometry" />
         </mxCell>
@@ -470,6 +455,12 @@
         </mxCell>
         <mxCell id="QtOKSeVlvf_DVjxNgbwE-29" value="AIMAS portal backend Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-148" y="1176.5" width="105" height="34.75" as="geometry" />
+        </mxCell>
+        <mxCell id="QtOKSeVlvf_DVjxNgbwE-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="1346" as="sourcePoint" />
+            <mxPoint x="269" y="1368" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
