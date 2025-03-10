@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="tyca6-RHl7trLcN3MMZb">
-    <mxGraphModel dx="3022" dy="-249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3706" dy="211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HNTKjAS1W8YU7pz285Al-19" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="2310" width="1030" height="620" as="geometry" />
+        </mxCell>
         <mxCell id="HNTKjAS1W8YU7pz285Al-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="HNTKjAS1W8YU7pz285Al-1" target="HNTKjAS1W8YU7pz285Al-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -35,7 +38,7 @@
           <mxGeometry x="-944" y="2950" width="800" height="506" as="geometry" />
         </mxCell>
         <mxCell id="HNTKjAS1W8YU7pz285Al-9" value="request_id, 1:N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-530" y="2309" width="110" height="30" as="geometry" />
+          <mxGeometry x="-530" y="2280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HNTKjAS1W8YU7pz285Al-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.371;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="HNTKjAS1W8YU7pz285Al-5" target="HNTKjAS1W8YU7pz285Al-2">
           <mxGeometry relative="1" as="geometry" />
@@ -51,6 +54,9 @@
         </mxCell>
         <mxCell id="HNTKjAS1W8YU7pz285Al-18" value="engagement_id, 1:N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-540" y="3507" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HNTKjAS1W8YU7pz285Al-20" value="Aggregation root" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-670" y="2320" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
