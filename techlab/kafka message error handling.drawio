@@ -1,182 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 QuarkPC/2.2.5.251" version="26.0.16">
   <diagram name="第 1 页" id="X3mUQcKEJWMMPdD5XF9t">
-    <mxGraphModel dx="697" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="812" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="320" width="450" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-1" target="Loy-8UPeiQXcwkEAXnz8-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="85" y="241" width="50" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-2" value="CP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="266" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-3" target="Loy-8UPeiQXcwkEAXnz8-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-3" value="Spring Kafka Listener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="370" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-6" value="fetch messages" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="320" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-8" value="validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="375" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-9" value="handle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="490" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-10" value=":Spring Kafka Listener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="180" y="820" width="100" height="450" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-10">
-          <mxGeometry x="45" y="60" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="90" as="sourcePoint" />
-            <mxPoint x="55" y="110" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="70" y="90" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-16" value="1. Kafka client fetch messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-15">
-          <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
-            <mxPoint x="20" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-10">
-          <mxGeometry x="45" y="327" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-13" value=":KafkaHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="340" y="819" width="100" height="461" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-13">
-          <mxGeometry x="45" y="60" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="945.04" as="sourcePoint" />
-            <mxPoint x="385" y="945.04" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="945" />
-              <mxPoint x="310" y="945" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-18" value="2.validation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-17">
-          <mxGeometry x="-0.16" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-19" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="955" width="300" height="153" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-20" value="dirty message?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="988" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="225" y="988" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-21" target="Loy-8UPeiQXcwkEAXnz8-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-23" value="3. save dirty message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-22">
-          <mxGeometry x="-0.6333" y="1" relative="1" as="geometry">
-            <mxPoint x="44" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="165" y="1040" as="sourcePoint" />
-            <mxPoint x="435" y="1040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-25" target="Loy-8UPeiQXcwkEAXnz8-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="1073" />
-              <mxPoint x="350" y="1073" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-29" value="4. handleMessages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-28">
-          <mxGeometry x="-0.56" y="-1" relative="1" as="geometry">
-            <mxPoint x="32" y="-16" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="225" y="1058" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-27" target="Loy-8UPeiQXcwkEAXnz8-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="310" y="1088" />
-              <mxPoint x="310" y="1088" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-32" value="4.1 error/none" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-30">
-          <mxGeometry x="0.4853" y="1" relative="1" as="geometry">
-            <mxPoint x="16" y="9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="385" y="1058" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-34" value="Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1118" width="300" height="161" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-35" value="临时可恢复异常" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1147" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="385" y="1147" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-33" target="Loy-8UPeiQXcwkEAXnz8-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="310" y="1158" />
-              <mxPoint x="310" y="1158" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-39" value="5. handleMessages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-37">
-          <mxGeometry x="-0.24" relative="1" as="geometry">
-            <mxPoint x="8" y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="1198.1" as="sourcePoint" />
-            <mxPoint x="420" y="1198.1" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-41" value="Not Retryable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1205" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="225" y="1205" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="Loy-8UPeiQXcwkEAXnz8-42" target="Loy-8UPeiQXcwkEAXnz8-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-44" value="6.&amp;nbsp; save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Loy-8UPeiQXcwkEAXnz8-43">
-          <mxGeometry x="-0.6467" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-46" value="Kafka Message Error Handling" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1415" width="519.9999999999995" height="840" as="geometry" />
+          <mxGeometry x="330" y="1430" width="559.9999999999995" height="865" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-47" value="CP" style="swimlane;startSize=20;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-46">
-          <mxGeometry y="20" width="139.99999999999955" height="820" as="geometry" />
+          <mxGeometry y="20" width="139.99999999999955" height="845" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-51" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-47">
           <mxGeometry x="34.999999999999545" y="45" width="40" height="80" as="geometry" />
@@ -185,7 +17,7 @@
           <mxGeometry x="15.999999999999545" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-48" value="SpringKafkaListener" style="swimlane;startSize=20;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-46">
-          <mxGeometry x="139.99999999999955" y="20" width="220" height="820" as="geometry" />
+          <mxGeometry x="139.99999999999955" y="20" width="260" height="845" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-52" target="Loy-8UPeiQXcwkEAXnz8-57">
           <mxGeometry relative="1" as="geometry" />
@@ -209,14 +41,14 @@
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-57" value="dirty message?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
           <mxGeometry x="57.5" y="140" width="55" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-59" value="save dirty message &amp;amp; alert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-59" value="save dirty message &amp;amp; alert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
           <mxGeometry x="30" y="226" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-66" target="Loy-8UPeiQXcwkEAXnz8-90">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-66" target="Loy-8UPeiQXcwkEAXnz8-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-66" value="errorHandling" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;verticalAlign=top;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
-          <mxGeometry x="20" y="294" width="180" height="466" as="geometry" />
+          <mxGeometry x="20" y="294" width="190" height="466" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-73" target="Loy-8UPeiQXcwkEAXnz8-76">
           <mxGeometry relative="1" as="geometry">
@@ -230,7 +62,7 @@
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-73" target="Loy-8UPeiQXcwkEAXnz8-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-73" value="临时可恢复异常？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-73" value="临时可恢复异常？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
           <mxGeometry x="83.62" y="524" width="55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-74" target="Loy-8UPeiQXcwkEAXnz8-73">
@@ -256,7 +88,7 @@
             <mxPoint x="307.5" y="280" as="sourcePoint" />
             <mxPoint x="112.5" y="294" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="305" y="280" />
+              <mxPoint x="345" y="280" />
               <mxPoint x="112" y="280" />
             </Array>
           </mxGeometry>
@@ -269,33 +101,33 @@
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-86" target="Loy-8UPeiQXcwkEAXnz8-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-86" value="重试，依然有异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-86" value="重试，依然有异常" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
           <mxGeometry x="83.62" y="592" width="55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-48" source="Loy-8UPeiQXcwkEAXnz8-87" target="Loy-8UPeiQXcwkEAXnz8-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-87" value="alert &amp;amp; save error message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
-          <mxGeometry x="66" y="664" width="90" height="30" as="geometry" />
+          <mxGeometry x="66" y="662" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-90" value="commit offset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
-          <mxGeometry x="55.129999999999995" y="777" width="110" height="40" as="geometry" />
+          <mxGeometry x="59.99999999999999" y="790" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-94" value="message sequence controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-48">
-          <mxGeometry x="66.13" y="715" width="90" height="42" as="geometry" />
+          <mxGeometry x="66.13" y="713" width="90" height="42" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-49" value="MessageHandler" style="swimlane;startSize=20;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-46">
-          <mxGeometry x="359.99999999999955" y="20" width="160" height="820" as="geometry">
+          <mxGeometry x="399.99999999999955" y="20" width="160" height="845" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-55" value="validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-49">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-55" value="validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-49">
           <mxGeometry x="30" y="65" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Loy-8UPeiQXcwkEAXnz8-49" source="Loy-8UPeiQXcwkEAXnz8-62" target="Loy-8UPeiQXcwkEAXnz8-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Loy-8UPeiQXcwkEAXnz8-62" value="handleMessages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-49">
+        <mxCell id="Loy-8UPeiQXcwkEAXnz8-62" value="handleMessages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-49">
           <mxGeometry x="30" y="150" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Loy-8UPeiQXcwkEAXnz8-68" value="error?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Loy-8UPeiQXcwkEAXnz8-49">
