@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ls6p_8hV20rsziK436bs-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-121" target="ls6p_8hV20rsziK436bs-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-121" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="742.1999999999999" y="790" width="42.5" height="217.19" as="geometry" />
         </mxCell>
@@ -276,8 +279,28 @@
         <mxCell id="ls6p_8hV20rsziK436bs-139" value="1&#39;&lt;br&gt;&lt;div&gt;103&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="960" y="572.97" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-140" value="header&lt;div&gt;orignal offet&lt;/div&gt;&lt;div&gt;error indicator&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="852" y="812.5" width="138" height="30" as="geometry" />
+        <mxCell id="ls6p_8hV20rsziK436bs-140" value="header&lt;div&gt;orignal offet&lt;/div&gt;&lt;div&gt;error indicator&lt;/div&gt;&lt;div&gt;error type&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="874.87" y="812.5" width="138" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-141" value="fetch record list" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="956" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-146" value="error msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-143" target="ls6p_8hV20rsziK436bs-145">
+          <mxGeometry x="-0.3103" y="18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-143" value="msg type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="812" y="1026" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-145" target="ls6p_8hV20rsziK436bs-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-145" value="save to db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947" y="1038" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-147" value="save to db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1038" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
