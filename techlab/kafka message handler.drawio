@@ -369,7 +369,8 @@
         <mxCell id="ls6p_8hV20rsziK436bs-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-168" target="ls6p_8hV20rsziK436bs-182">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="858" y="1590" />
+              <mxPoint x="920" y="1430" />
+              <mxPoint x="920" y="1590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -385,7 +386,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-170" value="fetch db record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="958.65" y="1410" width="100" height="40" as="geometry" />
+          <mxGeometry x="955" y="1359.62" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-172" value="ignore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="958.65" y="1490" width="100" height="40" as="geometry" />
@@ -416,7 +417,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-182" value="execution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960.5" y="1570" width="100" height="40" as="geometry" />
+          <mxGeometry x="960" y="1570" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-185" value="remove redis offset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1570" width="100" height="40" as="geometry" />
