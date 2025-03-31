@@ -180,7 +180,7 @@
         <mxCell id="ls6p_8hV20rsziK436bs-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-92" target="ls6p_8hV20rsziK436bs-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-192" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-94">
+        <mxCell id="ls6p_8hV20rsziK436bs-192" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-94">
           <mxGeometry x="-0.4949" y="-1" relative="1" as="geometry">
             <mxPoint y="2" as="offset" />
           </mxGeometry>
@@ -188,7 +188,7 @@
         <mxCell id="ls6p_8hV20rsziK436bs-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-92" target="ls6p_8hV20rsziK436bs-235">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-237" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-236">
+        <mxCell id="ls6p_8hV20rsziK436bs-237" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-236">
           <mxGeometry x="-0.4199" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -355,6 +355,11 @@
         <mxCell id="ls6p_8hV20rsziK436bs-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-168" target="ls6p_8hV20rsziK436bs-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-238" value="error msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-228">
+          <mxGeometry x="0.3579" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-168" value="msg type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="803.6299999999999" y="1407.75" width="68" height="64" as="geometry" />
         </mxCell>
@@ -437,7 +442,7 @@
         <mxCell id="ls6p_8hV20rsziK436bs-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-220" target="ls6p_8hV20rsziK436bs-223">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-220" value="duplication msg&lt;div&gt;（offset &amp;lt;= processed offset）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ls6p_8hV20rsziK436bs-220" value="duplication msg&lt;div&gt;（msg offset &amp;lt;= redis processed offset）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580.65" y="1431.75" width="132.9" height="48.25" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-223" target="ls6p_8hV20rsziK436bs-168">
@@ -461,7 +466,7 @@
         <mxCell id="ls6p_8hV20rsziK436bs-234" value="&lt;span style=&quot;color: rgb(41, 42, 46); font-family: ui-sans-serif, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;消息 key 之前是否有未处理数据，若有则将消息存入待处理队列&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="546" y="350" width="284" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-235" value="listener.handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ls6p_8hV20rsziK436bs-235" value="listener&lt;div&gt;handler message&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="968.3999999999999" y="392" width="109.87" height="32" as="geometry" />
         </mxCell>
       </root>
