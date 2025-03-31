@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="O6liCrvr6T_qjz66huat">
-    <mxGraphModel dx="1817" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,14 +46,14 @@
         <mxCell id="ls6p_8hV20rsziK436bs-22" value="retry" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-40" y="380" width="147" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-23" value="listener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ls6p_8hV20rsziK436bs-23" value="listener&lt;div&gt;handler message&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16.5" y="409" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-26" target="ls6p_8hV20rsziK436bs-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-26" value="recovery" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="126.5" y="510" width="171.5" height="130" as="geometry" />
+        <mxCell id="ls6p_8hV20rsziK436bs-26" value="recovery&lt;div&gt;(业务重试失败，保存失败的记录)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="198" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-31" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-28" target="ls6p_8hV20rsziK436bs-26">
           <mxGeometry relative="1" as="geometry" />
@@ -185,8 +185,16 @@
             <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-92" value="key offset &amp;lt; processed offset?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="758.52" y="380" width="132.7" height="56" as="geometry" />
+        <mxCell id="ls6p_8hV20rsziK436bs-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-92" target="ls6p_8hV20rsziK436bs-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-237" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls6p_8hV20rsziK436bs-236">
+          <mxGeometry x="-0.4199" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-92" value="redis hightest offset == processed offset" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="749.4499999999999" y="380" width="151.48" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ls6p_8hV20rsziK436bs-75" target="ls6p_8hV20rsziK436bs-71">
           <mxGeometry relative="1" as="geometry" />
@@ -212,7 +220,7 @@
         <mxCell id="ls6p_8hV20rsziK436bs-114" value="send retry topic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="771.81" y="558.24" width="109.87" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="ls6p_8hV20rsziK436bs-115" value="save redis(idempotent)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ls6p_8hV20rsziK436bs-115" value="update redis(idempotent)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="772.06" y="522.74" width="109.87" height="32" as="geometry" />
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-117" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -449,6 +457,12 @@
         </mxCell>
         <mxCell id="ls6p_8hV20rsziK436bs-231" value="next round retry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="878.59" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-234" value="&lt;span style=&quot;color: rgb(41, 42, 46); font-family: ui-sans-serif, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;消息 key 之前是否有未处理数据，若有则将消息存入待处理队列&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="546" y="350" width="284" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ls6p_8hV20rsziK436bs-235" value="listener.handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="968.3999999999999" y="392" width="109.87" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
