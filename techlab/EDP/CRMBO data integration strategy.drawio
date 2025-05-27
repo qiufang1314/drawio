@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="第 1 页" id="H-zNot_2gizYWFl9tbyM">
-    <mxGraphModel>
+    <mxGraphModel dx="1131" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;textOpacity=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1280" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;textOpacity=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1040" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-23" target="YSEfwSpDA4RHuo-UK7Tc-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-23" value="CDC1.0(MySQL)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="810" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-22" value="Engagement(MySQL)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1060" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-2" value="CRMBO" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="900" width="290" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-15" value="&lt;p data-pm-slice=&quot;1 1 []&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_APP_PUSH_RECORD&lt;br data-prosemirror-node-inline=&quot;true&quot; data-prosemirror-node-name=&quot;hardBreak&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_APP_PUSH_TRACKING_EVENT&lt;br data-prosemirror-node-inline=&quot;true&quot; data-prosemirror-node-name=&quot;hardBreak&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_EMAIL_RECORD&lt;br data-prosemirror-node-inline=&quot;true&quot; data-prosemirror-node-name=&quot;hardBreak&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_EMAIL_TRACKING_EVENT&lt;br data-prosemirror-node-inline=&quot;true&quot; data-prosemirror-node-name=&quot;hardBreak&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_IN_APP_PUSH_RECORD&lt;br data-prosemirror-node-inline=&quot;true&quot; data-prosemirror-node-name=&quot;hardBreak&quot; data-prosemirror-content-type=&quot;node&quot;&gt;AIMAS_ENGAGEMENT_SMS_RECORD&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1085" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-16" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;span style=&quot;color: var(--custom-palette-color, inherit); box-sizing: border-box; --custom-palette-color: var(--ds-icon-accent-red, #FF5630);&quot; class=&quot;fabric-text-color-mark&quot; data-text-custom-color=&quot;#ff5630&quot; data-renderer-mark=&quot;true&quot;&gt;CUSTOMER_CAMP_LD_WAVE&lt;/span&gt;&lt;/strong&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;span style=&quot;color: var(--custom-palette-color, inherit); box-sizing: border-box; --custom-palette-color: var(--ds-icon-accent-red, #FF5630);&quot; class=&quot;fabric-text-color-mark&quot; data-text-custom-color=&quot;#ff5630&quot; data-renderer-mark=&quot;true&quot;&gt;CUSTOMER_CALL_LST&lt;/span&gt;&lt;/strong&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1570" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-17" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;span style=&quot;color: var(--custom-palette-color, inherit); box-sizing: border-box; --custom-palette-color: var(--ds-icon-accent-red, #FF5630);&quot; class=&quot;fabric-text-color-mark&quot; data-text-custom-color=&quot;#ff5630&quot; data-renderer-mark=&quot;true&quot;&gt;CUSTOMER_COMMUNICATION&lt;/span&gt;&lt;/strong&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;span style=&quot;color: var(--custom-palette-color, inherit); box-sizing: border-box; --custom-palette-color: var(--ds-icon-accent-red, #FF5630);&quot; class=&quot;fabric-text-color-mark&quot; data-text-custom-color=&quot;#ff5630&quot; data-renderer-mark=&quot;true&quot;&gt;CUSTOMER_COMM_DTL&lt;/span&gt;&lt;/strong&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1690" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: ui-monospace, Menlo, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; text-align: start; white-space: pre; background-color: rgba(9, 30, 66, 0.06);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;letter-spacing: -0.07px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: ui-monospace, Menlo, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; text-align: start; white-space: pre; background-color: rgba(9, 30, 66, 0.06);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;letter-spacing: -0.07px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="942.5" width="225" height="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-21" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;CUSTOMER_CAMPAIGN_CONTACT&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;CUSTOMER_CAMPAIGN_TREATMENT&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;CUSTOMER_CAMPAIGN_OFFER&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;CUSTOMER_BU&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;letter-spacing: -0.07px;&quot;&gt;CUSTOMER_MKOFFR_PROMO&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;letter-spacing: -0.07px;&quot;&gt;CUSTOMER_USER&lt;/span&gt;&lt;span style=&quot;letter-spacing: -0.07px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="840" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-24" target="YSEfwSpDA4RHuo-UK7Tc-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-24" value="Workflow(MySQL)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1270" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-25" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: ui-monospace, Menlo, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgba(9, 30, 66, 0.06);&quot;&gt;AIMAS_CAMPAIGN_WORKFLOW_ELEMENT&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1300" width="265" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-26" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;letter-spacing: -0.07px; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; white-space-collapse: preserve; color: light-dark(rgb(23, 43, 77), rgb(186, 203, 232)); text-align: start;&quot;&gt;STG_B_CAMP_OFFER&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="980" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-27" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(23, 43, 77), rgb(186, 203, 232)); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve;&quot;&gt;STG_B_CAMP_CONTACT&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="1059" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-28" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&amp;lt;new table&amp;gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;STG_B_CAMP_CIA&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1160" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-29" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;STG_B_OFFER_PROMO&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="1020" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-32" target="YSEfwSpDA4RHuo-UK7Tc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-23" target="YSEfwSpDA4RHuo-UK7Tc-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="885" as="sourcePoint" />
+            <mxPoint x="740" y="1025" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="900" />
+              <mxPoint x="510" y="920" />
+              <mxPoint x="560" y="920" />
+              <mxPoint x="560" y="918" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-32" target="YSEfwSpDA4RHuo-UK7Tc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-32" value="CDC1.0 Current Sync Job" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="570" y="893.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-36" target="YSEfwSpDA4RHuo-UK7Tc-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="1340" />
+              <mxPoint x="880" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-36" value="CDC1.0 New Sync Job" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-38" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;STG_B_CAMP_RESP&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="1105" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="670" y="1055" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YSEfwSpDA4RHuo-UK7Tc-51">
+          <mxGeometry width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-50" value="StarRocks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YSEfwSpDA4RHuo-UK7Tc-51">
+          <mxGeometry x="7" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-39" target="YSEfwSpDA4RHuo-UK7Tc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-43" target="YSEfwSpDA4RHuo-UK7Tc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-56" target="YSEfwSpDA4RHuo-UK7Tc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-56" target="YSEfwSpDA4RHuo-UK7Tc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-56" value="CDC1.0 Sync Job" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1065" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-49" target="YSEfwSpDA4RHuo-UK7Tc-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-39" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1060" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-40" value="External Catalog - CDC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1075" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-43" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1152" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-44" value="External Catalog - Engagement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-62" value="CIA Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482" y="1305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-66" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="532" y="1320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-67" value="External Catalog - Workflow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="544" y="1335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-71" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="1310" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-72" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YSEfwSpDA4RHuo-UK7Tc-71">
+          <mxGeometry width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-73" value="StarRocks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YSEfwSpDA4RHuo-UK7Tc-71">
+          <mxGeometry x="7" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSEfwSpDA4RHuo-UK7Tc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YSEfwSpDA4RHuo-UK7Tc-72" target="YSEfwSpDA4RHuo-UK7Tc-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
