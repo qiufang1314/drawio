@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="QgCP3TMtevPnfM7mnc4U">
-    <mxGraphModel dx="1562" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1437" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gyFH5Tu4j7qP2ZTiGYmG-3" value="Reconciliation Job" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;fontSize=17;textOpacity=30;" vertex="1" parent="1">
+          <mxGeometry x="931.4" y="350" width="128.6" height="780" as="geometry" />
+        </mxCell>
         <mxCell id="9pg-booq9goJNZEmGVTY-1" value="&lt;b&gt;&lt;font&gt;StarRocks&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#B3B3B3;strokeColor=none;fontSize=15;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1100" y="332.99" width="487" height="557.01" as="geometry" />
         </mxCell>
@@ -239,6 +242,18 @@
         </mxCell>
         <mxCell id="gyFH5Tu4j7qP2ZTiGYmG-1" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;1. add&amp;nbsp; control flag field&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1560" y="569" width="181" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="gyFH5Tu4j7qP2ZTiGYmG-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="874" y="720.73" as="sourcePoint" />
+            <mxPoint x="924" y="720.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gyFH5Tu4j7qP2ZTiGYmG-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="720" as="sourcePoint" />
+            <mxPoint x="1110" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
