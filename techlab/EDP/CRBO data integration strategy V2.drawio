@@ -279,7 +279,7 @@
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7mvWpR-rzC4vm4ULXptJ-8" target="7mvWpR-rzC4vm4ULXptJ-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-8" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Realtime Delivery&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font&gt;（StarRocks)&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#B3B3B3;strokeColor=none;fontSize=21;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-8" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Realtime Delivery&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fillColor=#B3B3B3;strokeColor=none;fontSize=21;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="653" y="1330" width="437" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF9933;strokeColor=none;" vertex="1" parent="1">
