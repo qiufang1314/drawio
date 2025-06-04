@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="QgCP3TMtevPnfM7mnc4U">
-    <mxGraphModel dx="1357" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1072" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,13 +324,13 @@
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-31" value="CDC1.0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="478" y="1399.13" width="92" height="69.13" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-33" value="Workflow" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-33" value="campaign_workflow&lt;div&gt;campaign_workflow_element&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="478" y="1670" width="92" height="62.01" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-34" value="Engagement" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-34" value="engagement_global_rule&lt;div&gt;engagement_access_control_list&lt;/div&gt;&lt;div&gt;engagement_customer_rule_config&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="478" y="1770" width="92" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-35" value="Event Center" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-35" value="event_generic_rule&lt;div&gt;event_rule_template&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="478" y="1860" width="92" height="61" as="geometry" />
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;" edge="1" parent="1" source="7mvWpR-rzC4vm4ULXptJ-3" target="7mvWpR-rzC4vm4ULXptJ-33">
