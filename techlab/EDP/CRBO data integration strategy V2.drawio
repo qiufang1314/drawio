@@ -264,7 +264,7 @@
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-3" value="&lt;b&gt;Workflow&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="278" y="1640" width="168" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-6" value="&lt;b&gt;Engaement&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-6" value="&lt;b&gt;Engagement&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="278" y="1743" width="168" height="72" as="geometry" />
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-7" value="&lt;b&gt;Event Center&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=none;fontSize=15;" vertex="1" parent="1">
@@ -321,9 +321,6 @@
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-25" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;CUSTOMER_USER&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="7mvWpR-rzC4vm4ULXptJ-17">
           <mxGeometry x="4" y="158" width="290" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-31" value="CDC1.0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="478" y="1399.13" width="92" height="69.13" as="geometry" />
-        </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-33" value="campaign_workflow&lt;div&gt;campaign_workflow_element&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontStyle=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="478" y="1670" width="92" height="62.01" as="geometry" />
         </mxCell>
@@ -349,9 +346,6 @@
           <mxGeometry x="478" y="1960" width="92" height="58" as="geometry" />
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;" edge="1" parent="1" source="7mvWpR-rzC4vm4ULXptJ-51" target="7mvWpR-rzC4vm4ULXptJ-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7mvWpR-rzC4vm4ULXptJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7mvWpR-rzC4vm4ULXptJ-1" target="7mvWpR-rzC4vm4ULXptJ-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-59" value="&lt;b&gt;&lt;font&gt;CRMBO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=none;fontSize=15;" vertex="1" parent="1">
@@ -423,6 +417,9 @@
         </mxCell>
         <mxCell id="7mvWpR-rzC4vm4ULXptJ-82" value="&lt;b&gt;&lt;font&gt;EDP&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1220" y="1433" width="168" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="7mvWpR-rzC4vm4ULXptJ-84" value="Realtime delivery" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1421" width="124" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
